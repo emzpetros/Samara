@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 3839ea05fd26487eb08d3448d4186085
+timeCreated: 1738076924
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Utils/DirectorySizeManager.cs
+  uploadId: 936218

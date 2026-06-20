@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 81c8b28abf534e4428f1257cee3f799c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/Actions/Steps/TMPStep.cs
+  uploadId: 936218

@@ -1,0 +1,14 @@
+﻿fileFormatVersion: 2
+guid: 3fcdb9c002c4467786272af98e96c193
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Brain/Editor/Brain.Editor.asmdef
+  uploadId: 936218

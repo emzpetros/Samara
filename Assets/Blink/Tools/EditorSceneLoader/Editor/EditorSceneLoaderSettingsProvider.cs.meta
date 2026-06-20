@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 91f1fae66a12cca4cbb16bd24a78aba6
+AssetOrigin:
+  serializedVersion: 1
+  productId: 365660
+  packageName: Quick Scene Loader - Editor Tool
+  packageVersion: 1.0
+  assetPath: Assets/Blink/Tools/EditorSceneLoader/Editor/EditorSceneLoaderSettingsProvider.cs
+  uploadId: 873878

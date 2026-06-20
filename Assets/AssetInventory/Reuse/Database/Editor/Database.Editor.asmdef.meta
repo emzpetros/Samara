@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e8927d0b827624a32bd8b4c1bdaf49d9
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Database/Editor/Database.Editor.asmdef
+  uploadId: 936218

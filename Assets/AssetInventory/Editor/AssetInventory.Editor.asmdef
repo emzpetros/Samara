@@ -1,0 +1,95 @@
+{
+    "name": "AssetInventory.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:45aff6f96512e3b4d8570da6d8cbf49d",
+        "GUID:8fa72331ed184174ba749d07847ca8d6",
+        "GUID:3fcdb9c002c4467786272af98e96c193",
+        "GUID:478a2357cc57436488a56e564b08d223",
+        "GUID:f82f873437909ef4fb0deb8005903f14",
+        "GUID:c579267770062bf448e75eb160330b7f",
+        "GUID:d20df05e15e8e874d9af2c92c72f14b4",
+        "GUID:18a3ee135d24342f7ae628142b5114cb",
+        "GUID:234b356a69de64fa79f48940000c93ef",
+        "GUID:f2f9fbb8654eff343bf4a94f2a688687",
+        "GUID:5c605a9c9e9b6421a8d175d64aaa4beb",
+        "GUID:498d02e03062b2649b108f31a9668c56",
+        "GUID:b344fc90df84f5a4f968af99d3b862a9",
+        "GUID:ae052f549db434c89af6d304e7f1a8ed",
+        "GUID:73ee7612e773b45fe8fb2afaaa592cb3",
+        "GUID:7d09123d01ea404d96206140da7a1307",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95",
+        "Unity.RenderPipelines.HighDefinition.Runtime",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:6bcbf215118e4aa4ae61028f264f424b",
+        "GUID:87d9f681e69f28a4fa053c97e92ede65",
+        "GUID:f3057429ee4a4b73b5d59b496bb561b6",
+        "GUID:93ab9aa3a69545148fe927e0a62a8a46",
+        "GUID:a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2",
+        "Database.Editor",
+        "Unity.AI.MCP.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "14.0.0",
+            "define": "USE_URP"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "14.0.0",
+            "define": "USE_HDRP"
+        },
+        {
+            "name": "com.unity.cloud.assets",
+            "expression": "1.10.0",
+            "define": "USE_ASSET_MANAGER"
+        },
+        {
+            "name": "com.unity.cloud.identity",
+            "expression": "1.7.0",
+            "define": "USE_CLOUD_IDENTITY"
+        },
+        {
+            "name": "com.unity.vectorgraphics",
+            "expression": "",
+            "define": "USE_VECTOR_GRAPHICS"
+        },
+        {
+            "name": "com.unity.shadergraph",
+            "expression": "",
+            "define": "USE_SHADER_GRAPH"
+        },
+        {
+            "name": "com.unity.learn.iet-framework",
+            "expression": "5.0.0",
+            "define": "USE_TUTORIALS"
+        },
+        {
+            "name": "com.unity.visualeffectgraph",
+            "expression": "17.0",
+            "define": "USE_VFX"
+        },
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "",
+            "define": "USE_TEXTMESHPRO"
+        },
+        {
+            "name": "com.unity.ai.assistant",
+            "expression": "2.0.0",
+            "define": "ASSET_INVENTORY_MCP"
+        }
+    ],
+    "noEngineReferences": false
+}

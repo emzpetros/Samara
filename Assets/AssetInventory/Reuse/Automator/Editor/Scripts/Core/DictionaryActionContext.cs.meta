@@ -1,0 +1,18 @@
+﻿fileFormatVersion: 2
+guid: b2c7885ec83c453c9ec6874e98a5c651
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Automator/Editor/Scripts/Core/DictionaryActionContext.cs
+  uploadId: 936218

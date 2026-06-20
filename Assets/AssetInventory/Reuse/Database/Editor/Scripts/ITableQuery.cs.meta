@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f3002653719284c438b0e2698d590e8b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Database/Editor/Scripts/ITableQuery.cs
+  uploadId: 936218

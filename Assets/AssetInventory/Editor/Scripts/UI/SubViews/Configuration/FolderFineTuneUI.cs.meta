@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: bfc1bfb45ae7748a2a16d093113903b0
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/UI/SubViews/Configuration/FolderFineTuneUI.cs
+  uploadId: 936218

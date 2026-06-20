@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 5776abcf088a43f9b1ed619c5a0c388c
+timeCreated: 1665319929
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Utils/Cooldown.cs
+  uploadId: 936218

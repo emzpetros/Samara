@@ -1,0 +1,18 @@
+﻿fileFormatVersion: 2
+guid: 78648613d18c42c2b65795bf491df836
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Brain/Editor/Scripts/CaptionEngine.cs
+  uploadId: 936218

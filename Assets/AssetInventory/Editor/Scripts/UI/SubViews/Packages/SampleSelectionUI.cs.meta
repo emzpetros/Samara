@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: ad163ea1e93742fd8541befc268fd08b
+timeCreated: 1714464604
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/UI/SubViews/Packages/SampleSelectionUI.cs
+  uploadId: 936218

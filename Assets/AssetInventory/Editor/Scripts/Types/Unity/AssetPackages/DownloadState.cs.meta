@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 34aad08267b24f5c9a59572ce2426e46
+timeCreated: 1716230229
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Types/Unity/AssetPackages/DownloadState.cs
+  uploadId: 936218

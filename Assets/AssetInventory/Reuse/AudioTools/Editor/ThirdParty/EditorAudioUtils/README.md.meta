@@ -1,0 +1,14 @@
+﻿fileFormatVersion: 2
+guid: 44d68c4c0a1a433c881bc053761a2e7d
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/AudioTools/Editor/ThirdParty/EditorAudioUtils/README.md
+  uploadId: 936218

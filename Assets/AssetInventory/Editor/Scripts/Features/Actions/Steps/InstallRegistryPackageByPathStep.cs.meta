@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 67a6b3bb154e84a4fa79eca1e90b384a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/Actions/Steps/InstallRegistryPackageByPathStep.cs
+  uploadId: 936218

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 3a85fdaba2e34be6a7b8299c1e8c2d58
+timeCreated: 1709101670
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Utils/MemoryObserver.cs
+  uploadId: 936218

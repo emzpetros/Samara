@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 1343727194bd54902b2596084b6097e2
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/Analysis/ProjectDependencyAnalysis.cs
+  uploadId: 936218

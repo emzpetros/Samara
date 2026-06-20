@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 48d5b966356396c46b47d5db6a7f0d96
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/Actions/Steps/FTPDeleteStep.cs
+  uploadId: 936218

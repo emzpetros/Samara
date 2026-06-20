@@ -1,0 +1,100 @@
+{
+    "publisher": "Impossible Robert",
+    "discordLink": "https://discord.com/invite/uzeHzEMM4B",
+    "tools": [
+        {
+            "id": "AssetInventory",
+            "name": "Asset Inventory",
+            "logoTextureName": "AssetInventory",
+            "description": "Manage, search and organize all your Unity assets across the Asset Store, packages and local files.",
+            "assetStoreLink": "https://assetstore.unity.com/packages/tools/utilities/asset-inventory-4-349582",
+            "webLink": "https://www.wetzold.com/tools",
+            "packageName": "com.wetzold.asset-inventory",
+            "isPublic": true
+        },
+        {
+            "id": "AudioTools",
+            "name": "Audio Tools",
+            "logoTextureName": "AudioTools",
+            "description": "An easy to use audio tool for trimming and adjusting audio files right inside Unity.",
+            "assetStoreLink": "https://assetstore.unity.com/packages/tools/audio/audio-tools-356424",
+            "webLink": "https://www.wetzold.com/tools",
+            "packageName": "com.wetzold.audio-tools",
+            "isPublic": true
+        },
+        {
+            "id": "ChartGuru",
+            "name": "Chart Guru",
+            "logoTextureName": "ChartGuru",
+            "description": "Professional high-performance 2D charts with animated morphing, live data binding, and extensive Editor tooling.",
+            "assetStoreLink": "",
+            "webLink": "https://www.wetzold.com/tools",
+            "packageName": "com.wetzold.chart-guru",
+            "isPublic": true
+        },
+        {
+            "id": "MockMagic",
+            "name": "Mock Magic",
+            "logoTextureName": "MockMagic",
+            "description": "A comprehensive mock data generation library for Unity. Generate names, emails, dates, series data and more.",
+            "assetStoreLink": "https://u3d.as/3WYh",
+            "webLink": "https://www.wetzold.com/tools",
+            "packageName": "com.wetzold.mock-magic",
+            "isPublic": true
+        },
+        {
+            "id": "LEDStudio",
+            "name": "LED Studio",
+            "logoTextureName": "LEDStudio",
+            "description": "Premium LED wall, ribbon board, and perimeter display simulation with coarse-pixel emitter rendering.",
+            "assetStoreLink": "https://u3d.as/3Z1B",
+            "webLink": "https://www.wetzold.com/tools",
+            "packageName": "com.wetzold.led-studio",
+            "isPublic": true
+        },
+        {
+            "id": "TextStudio",
+            "name": "Text Studio",
+            "logoTextureName": "TextStudio",
+            "description": "Premium modular text framework with semantic text pipeline, placement system, and animation engine.",
+            "assetStoreLink": "",
+            "webLink": "https://www.wetzold.com/tools",
+            "packageName": "com.wetzold.text-studio",
+            "isAddon": false,
+            "isPublic": true
+        },
+        {
+            "id": "TextStudio.3DText",
+            "name": "3D Text",
+            "logoTextureName": "TextStudio.3DText",
+            "description": "Burst-compiled 3D text mesh generation for Text Studio with full TMP font support.",
+            "assetStoreLink": "",
+            "webLink": "https://www.wetzold.com/tools",
+            "packageName": "com.wetzold.text-studio.3d",
+            "isAddon": true,
+            "isPublic": true
+        },
+        {
+            "id": "TextStudio.MechanicalDisplays",
+            "name": "Mechanical Displays",
+            "logoTextureName": "TextStudio.MechanicalDisplays",
+            "description": "Split-flap, drum roller, and other mechanical display simulations for Text Studio.",
+            "assetStoreLink": "",
+            "webLink": "https://www.wetzold.com/tools",
+            "packageName": "com.wetzold.text-studio.mechanical-displays",
+            "isAddon": true,
+            "isPublic": false
+        },
+        {
+            "id": "TextStudio.Terminal",
+            "name": "Terminal FX",
+            "logoTextureName": "TextStudio.Terminal",
+            "description": "Retro terminal and typewriter text effects with CRT shaders for Text Studio.",
+            "assetStoreLink": "",
+            "webLink": "https://www.wetzold.com/tools",
+            "packageName": "com.wetzold.text-studio.terminal-fx",
+            "isAddon": true,
+            "isPublic": false
+        }
+    ]
+}

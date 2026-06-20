@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7d6e3ab9ad4da44b2a3a12d6d3812398
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Common/Editor/UI/NameUI.cs
+  uploadId: 936218

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 53aad842fd1825e4b9801013699c99dc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/UI/TreeView/HierarchyTreeViewControl.cs
+  uploadId: 936218

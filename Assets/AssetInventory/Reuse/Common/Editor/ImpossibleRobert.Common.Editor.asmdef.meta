@@ -1,0 +1,14 @@
+﻿fileFormatVersion: 2
+guid: 6bcbf215118e4aa4ae61028f264f424b
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Common/Editor/ImpossibleRobert.Common.Editor.asmdef
+  uploadId: 936218

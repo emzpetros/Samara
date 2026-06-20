@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bde21189370ee4644b49db2ff287d1e2
+timeCreated: 1465490175
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/Package2Folder/readme.txt
+  uploadId: 936218

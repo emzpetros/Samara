@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: b4a6b237d9c064624a26357fed218d25
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Images/asset-inventory-greeting.mp4
+  uploadId: 936218
+VideoClipImporter:
+  externalObjects: {}
+  serializedVersion: 3
+  frameRange: 0
+  startFrame: -1
+  endFrame: -1
+  colorSpace: 0
+  deinterlace: 0
+  encodeAlpha: 0
+  flipVertical: 0
+  flipHorizontal: 0
+  importAudio: 1
+  targetSettings:
+    :
+      enableTranscoding: 0
+      codec: 0
+      resizeFormat: 0
+      aspectRatio: 0
+      customWidth: 1168
+      customHeight: 784
+      bitrateMode: 2
+      spatialQuality: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

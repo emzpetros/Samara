@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 1eaa958b7db6440478fc58ac2172550c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/Analysis/AssetOriginPostprocessor.cs
+  uploadId: 936218

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5383660d3976d784bb60fdf1e173b847
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/Actions/Steps/AddPackageTagStep.cs
+  uploadId: 936218

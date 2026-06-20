@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: b58bccfcb48614e76b359a59020f2157
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Types/InventoryStats.cs
+  uploadId: 936218

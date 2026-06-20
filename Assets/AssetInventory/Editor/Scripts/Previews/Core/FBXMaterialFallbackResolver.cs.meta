@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 51e850507f064a4d903e937f938d0668
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Previews/Core/FBXMaterialFallbackResolver.cs
+  uploadId: 936218

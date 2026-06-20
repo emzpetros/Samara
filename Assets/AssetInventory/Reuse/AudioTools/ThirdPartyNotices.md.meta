@@ -1,0 +1,14 @@
+﻿fileFormatVersion: 2
+guid: de39bd8dfb8b45d1bc16db7cdfb248f4
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/AudioTools/ThirdPartyNotices.md
+  uploadId: 936218

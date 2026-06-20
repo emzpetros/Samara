@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b7fccf6f7e2604348aa418dbb6074ecb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Database/Editor/Scripts/SQLiteDatabaseConnection.cs
+  uploadId: 936218

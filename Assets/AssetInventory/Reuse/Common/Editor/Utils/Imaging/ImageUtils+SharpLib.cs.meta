@@ -1,0 +1,18 @@
+﻿fileFormatVersion: 2
+guid: ebd2e2b62aec460a84df3d31c3b6ab2d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Common/Editor/Utils/Imaging/ImageUtils+SharpLib.cs
+  uploadId: 936218

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ae3272135c5728a4e99608bc5b0954d6
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/SSH.Net/NuGet Gallery - SSH.NET
+    2024.2.0.url
+  uploadId: 936218

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: eedeb06caff2f4804ba94b1f06e1d585
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Database/Editor/Scripts/Internal/MySQLTableQuery.cs
+  uploadId: 936218

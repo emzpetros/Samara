@@ -1,0 +1,19 @@
+{
+    "name": "AudioTool.Editor",
+    "rootNamespace": "AudioTool",
+    "references": [
+        "GUID:6bcbf215118e4aa4ae61028f264f424b",
+        "GUID:93ab9aa3a69545148fe927e0a62a8a46"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

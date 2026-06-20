@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e213d84c411df6b4c8bb45e094ea8607
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/Scriban/license.txt
+  uploadId: 936218

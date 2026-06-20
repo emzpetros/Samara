@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: a2022535cfd741cc88a27f3e17e0034b
+timeCreated: 1733827591
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Types/DB/MetadataAssignment.cs
+  uploadId: 936218

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 6c1a0807133bd4fff928f96a3f217b1f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Integrations/MCP/SearchProjectAssetsTool.cs
+  uploadId: 936218

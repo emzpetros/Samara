@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 42a77e21fffb486191fd0cdb657154da
+timeCreated: 1721077772
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/UI/SubViews/Popups/ProjectSelectionUI.cs
+  uploadId: 936218

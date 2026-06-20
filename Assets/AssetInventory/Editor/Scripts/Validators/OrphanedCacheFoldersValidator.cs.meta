@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 92b572f0e78a437db2b4d5f1e39590bc
+timeCreated: 1743446018
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Validators/OrphanedCacheFoldersValidator.cs
+  uploadId: 936218

@@ -1,0 +1,14 @@
+﻿fileFormatVersion: 2
+guid: c0fac6e850f14c3293bbfa870fa2a646
+PackageManifestImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/AudioTools/package.json
+  uploadId: 936218

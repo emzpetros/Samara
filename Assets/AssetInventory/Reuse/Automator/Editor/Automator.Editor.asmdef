@@ -1,0 +1,18 @@
+{
+    "name": "Automator.Editor",
+    "rootNamespace": "Automator",
+    "references": [
+        "GUID:6bcbf215118e4aa4ae61028f264f424b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

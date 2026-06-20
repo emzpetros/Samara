@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 46d2adb82cb54ccba2926d5c9e91827e
+timeCreated: 1667808817
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Previews/PreviewPipeline.cs
+  uploadId: 936218

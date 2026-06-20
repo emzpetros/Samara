@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 168de31dd4aa98842986295166a9465c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Database/Editor/ThirdParty/MySQLConnector/NuGet
+    Gallery - MySqlConnector 1.3.14.url
+  uploadId: 936218

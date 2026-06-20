@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dd052e2ee38a0444c8e3756c89e24825
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/Utilities/AnimationPlaybackManager.cs
+  uploadId: 936218

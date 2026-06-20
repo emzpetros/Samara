@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: f0b6f03be9be448db2f9f81814c9a31c
+timeCreated: 1734120968
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/UI/SubViews/Packages/RemovalUI.cs
+  uploadId: 936218

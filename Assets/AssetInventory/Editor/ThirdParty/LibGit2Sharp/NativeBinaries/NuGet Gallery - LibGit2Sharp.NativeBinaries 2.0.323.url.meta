@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dcdcfb24d04181f4bbf7925bd8ff6231
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/LibGit2Sharp/NativeBinaries/NuGet
+    Gallery - LibGit2Sharp.NativeBinaries 2.0.323.url
+  uploadId: 936218

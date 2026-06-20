@@ -1,0 +1,14 @@
+﻿fileFormatVersion: 2
+guid: cdbd2aa33e0447f18b2c7d663168fd84
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Common/package.json
+  uploadId: 936218

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 9a2bf96017e04e418a3c9aaf690e5a63
+timeCreated: 1712316090
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/UI/SubViews/Operations/MaintenanceUI.cs
+  uploadId: 936218

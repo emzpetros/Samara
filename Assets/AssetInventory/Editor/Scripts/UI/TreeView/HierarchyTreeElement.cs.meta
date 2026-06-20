@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dbd31ea98a37d4f4fa8954969d415fc1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/UI/TreeView/HierarchyTreeElement.cs
+  uploadId: 936218

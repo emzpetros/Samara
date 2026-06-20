@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 7432e5bd56648e14cb5caaa11666a798
+timeCreated: 1712821548
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Validators/OutdatedPackagesValidator.cs
+  uploadId: 936218

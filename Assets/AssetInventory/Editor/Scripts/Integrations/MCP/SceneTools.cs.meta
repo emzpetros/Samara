@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 2d7a32dc1e1b74fa39affb038c2d77ef
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Integrations/MCP/SceneTools.cs
+  uploadId: 936218

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8e79e36df7924a94b8b6c76f718c6c15
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Common/Runtime/Shaders/SampleLit.shader
+  uploadId: 936218

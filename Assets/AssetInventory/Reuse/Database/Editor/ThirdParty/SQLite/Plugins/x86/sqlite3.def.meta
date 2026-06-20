@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 81dfdfa7ccc4ae64c927cd6a4d92f70c
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Database/Editor/ThirdParty/SQLite/Plugins/x86/sqlite3.def
+  uploadId: 936218

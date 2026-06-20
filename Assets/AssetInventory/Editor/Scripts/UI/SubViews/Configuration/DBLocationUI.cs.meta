@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d87e89fd98d54bb29acdfc0f02c0bcd5
+timeCreated: 1740604300
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/UI/SubViews/Configuration/DBLocationUI.cs
+  uploadId: 936218

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0517136c137640a488521dbadb9f21e9
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/Scriban/Scriban.xml
+  uploadId: 936218

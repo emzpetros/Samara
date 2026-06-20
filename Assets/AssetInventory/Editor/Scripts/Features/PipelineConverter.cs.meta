@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 9305fd9b7dc848f4ba61393396d00eff
+timeCreated: 1776581969
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Features/PipelineConverter.cs
+  uploadId: 936218

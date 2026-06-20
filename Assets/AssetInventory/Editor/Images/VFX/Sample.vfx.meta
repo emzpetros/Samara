@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8f85dafc94177704b961f051b65397c5
+VisualEffectImporter:
+  externalObjects: {}
+  serializedVersion: 1
+  template:
+    name: 
+    category: 
+    description: 
+    icon: {instanceID: 0}
+    thumbnail: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Images/VFX/Sample.vfx
+  uploadId: 936218

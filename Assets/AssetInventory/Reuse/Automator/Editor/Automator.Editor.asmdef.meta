@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Automator/Editor/Automator.Editor.asmdef
+  uploadId: 936218

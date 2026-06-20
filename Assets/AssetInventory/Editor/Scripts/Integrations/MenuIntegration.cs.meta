@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: d621b77a497f4f6e8bb4d4ec5c3fd46e
+timeCreated: 1758101999
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Integrations/MenuIntegration.cs
+  uploadId: 936218

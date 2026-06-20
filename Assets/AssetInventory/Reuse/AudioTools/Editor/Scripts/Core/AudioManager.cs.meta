@@ -1,0 +1,18 @@
+﻿fileFormatVersion: 2
+guid: f43c48002cbf423788c63a8b8d4b39bd
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/AudioTools/Editor/Scripts/Core/AudioManager.cs
+  uploadId: 936218

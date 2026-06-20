@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 87d9f681e69f28a4fa053c97e92ede65
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Common/Runtime/ImpossibleRobert.Common.asmdef
+  uploadId: 936218

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ab6b8a5962015490184d9f7ff08e4493
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/ThirdParty/Unity/ChinaBasedAssets.json
+  uploadId: 936218

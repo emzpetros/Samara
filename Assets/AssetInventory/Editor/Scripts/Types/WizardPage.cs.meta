@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 529867ed628d4836ae02fb6e992d4a1c
+timeCreated: 1754338816
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Types/WizardPage.cs
+  uploadId: 936218

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 64e6f7d7e22b541e1a7dda66c1db29c6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Common/Editor/UI/StringListUI.cs
+  uploadId: 936218

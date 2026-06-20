@@ -1,0 +1,23 @@
+{
+  "name": "com.wetzold.audio-tools",
+  "displayName": "Audio Tools",
+  "description": "An easy to use audio tool for trimming and adjusting audio files right inside Unity.",
+  "version": "1.0.0",
+  "unity": "2021.3",
+  "keywords": [
+    "audio",
+    "editor",
+    "wav",
+    "trim"
+  ],
+  "category": "Scripts",
+  "type": "tool",
+  "homepage": "https://www.wetzold.com/tools",
+  "changelogUrl": "CHANGELOG.md",
+  "documentationUrl": "https://www.wetzold.com/tools/audiotool/Documentation.pdf",
+  "author": {
+    "name": "Impossible Robert",
+    "url": "https://www.wetzold.com/tools",
+    "email": "support@wetzold.com"
+  }
+}

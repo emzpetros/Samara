@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3f331f4d783d53a488220107fb4eb606
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Editor/Scripts/Previews/Core/PreviewBoundsCalculator.cs
+  uploadId: 936218

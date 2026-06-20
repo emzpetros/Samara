@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 9497052db97e48e09eaebf7bf570a0b2
+timeCreated: 1727180377
+AssetOrigin:
+  serializedVersion: 1
+  productId: 349582
+  packageName: Asset Inventory 4
+  packageVersion: 4.5.1
+  assetPath: Assets/AssetInventory/Reuse/Common/Editor/Utils/ThreadUtils.cs
+  uploadId: 936218
