@@ -174,17 +174,15 @@ public class PlayerController : MonoBehaviour
           case SLOW_DIR.Left:
                 allowLeft = !allowLeft;
         isLeftSlowed = !isLeftSlowed;
-                Debug.Log("leftbound");
         break;
         case SLOW_DIR.Right:
                 allowRight = !allowRight;
             isRightSlowed = !isRightSlowed;
-                Debug.Log("right bound");
                 break;
         case SLOW_DIR.Up:
                 ToggleLift();
             isSlowedVertically = !isSlowedVertically;
-                Debug.Log("up bound");
+             
                 break;
     }
     }
