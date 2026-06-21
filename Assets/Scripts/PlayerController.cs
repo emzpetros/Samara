@@ -1,8 +1,12 @@
+using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
+    public EventHandler OnSpinStart;
+    public EventHandler OnSpinCancel;
 
     public static PlayerController Instance { get; private set; }
     public float LiftMaxAmount { get => liftMaxAmount; set => liftMaxAmount = value; }
@@ -51,10 +55,13 @@ public class PlayerController : MonoBehaviour
 
     private void GameInput_OnSpinLiftCancelInput(object sender, System.EventArgs e) {
         spinLift = false;
+        OnSpinCancel?.Invoke(this, EventArgs.Empty);
     }
 
     private void GameInput_OnSpinLiftInput(object sender, System.EventArgs e) {
         spinLift = true;
+        OnSpinStart?.Invoke(this, EventArgs.Empty);
+
     }
 
     private void FixedUpdate() {
