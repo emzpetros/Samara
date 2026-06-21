@@ -11,10 +11,10 @@ public class PlayerController : MonoBehaviour
     private GameInput gameInput;
     private Rigidbody rigidbody;
 
-    private const float SPIN_TORQUE = 150;
-    private const float MOVE_FORCE = 5;
-    [SerializeField] private  float LIFT_FORCE = 500;
-    [SerializeField] private  float GRAVITY_ACCELERATION = 0.5f;
+    [SerializeField] private  float SPIN_TORQUE = 150;
+    [SerializeField] private  float MOVE_SPEED = 200;
+    [SerializeField] private  float LIFT_FORCE = 750;
+    [SerializeField] private  float GRAVITY_ACCELERATION = 0.4f;
 
     private bool spinLift = false;
     private bool updraft = false;
@@ -24,10 +24,12 @@ public class PlayerController : MonoBehaviour
     private bool isSlowedVertically = false;
     private bool isRightSlowed = false;
     private bool isLeftSlowed = false;
+    private bool allowLeft = true;
+    private bool allowRight = true;
 
     private float draftForce;
 
-    private static float liftMaxAmount = 10f;
+    [SerializeField] private float liftMaxAmount = 10f;
     private float liftAmount;
     private float liftConsumptionAmount = 1f;
 
@@ -72,9 +74,17 @@ public class PlayerController : MonoBehaviour
             float xInput = moveInput.x;
             //rigidbody.AddTorque(Vector3.up * xInput * SPIN_TORQUE );
 
-            rigidbody.AddForce(Vector2.right * xInput * MOVE_FORCE);
+            if (!allowLeft) {
+                xInput = Mathf.Clamp(xInput, 0f, 1f);
+            }
+            else if (!allowRight) {
+                xInput = Mathf.Clamp(-xInput, -1f, 0f);
+            }
+
+            rigidbody.linearVelocity = new Vector2( xInput * MOVE_SPEED * Time.deltaTime, rigidbody.linearVelocity.y);
+           
         }
-        float horizontalSlowMultipler = 0.75f;
+        float horizontalSlowMultipler = 2f;
         if (isRightSlowed || isLeftSlowed) {
 
             rigidbody.linearVelocity = new Vector3(0f, rigidbody.linearVelocity.y, rigidbody.linearVelocity.z);
@@ -155,11 +165,12 @@ public class PlayerController : MonoBehaviour
     public void ToggleSlow(SLOW_DIR dir) {
         switch (dir) {
           case SLOW_DIR.Left:
-            
+                allowLeft = !allowLeft;
         isLeftSlowed = !isLeftSlowed;
                 Debug.Log("leftbound");
         break;
         case SLOW_DIR.Right:
+                allowRight = !allowRight;
             isRightSlowed = !isRightSlowed;
                 Debug.Log("right bound");
                 break;
