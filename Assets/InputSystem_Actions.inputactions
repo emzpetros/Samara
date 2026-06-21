@@ -55,9 +55,9 @@
                     "name": "Jump",
                     "type": "Button",
                     "id": "f1ba0d36-48eb-4cd5-b651-1c94a6531f70",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Hold",
                     "initialStateCheck": false
                 },
                 {
@@ -526,12 +526,12 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Jump",
+                    "name": "SpinLift",
                     "type": "Button",
                     "id": "f6412f12-60fc-4ca8-b6fb-28a3413e1e27",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
-                    "interactions": "",
+                    "interactions": "Hold",
                     "initialStateCheck": false
                 },
                 {
@@ -856,7 +856,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Jump",
+                    "action": "SpinLift",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -867,7 +867,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Jump",
+                    "action": "SpinLift",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -878,7 +878,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
-                    "action": "Jump",
+                    "action": "SpinLift",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

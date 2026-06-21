@@ -7,7 +7,8 @@ public class GameInput : MonoBehaviour {
 
     private InputSystem_Actions playerInputActions;
 
-    public event EventHandler OnJumpInput;
+    public event EventHandler OnSpinLiftInput;
+    public event EventHandler OnSpinLiftCancelInput;
     public event EventHandler OnAttackInput;
     public event EventHandler OnItemInput;
 
@@ -21,10 +22,15 @@ public class GameInput : MonoBehaviour {
 
     private void Start() {
 
-        playerInputActions.PlayerSamara.Jump.performed += Jump_performed;
+        playerInputActions.PlayerSamara.SpinLift.performed += SpinLift_performed;
+        playerInputActions.PlayerSamara.SpinLift.canceled += SpinLift_canceled;
         //playerInputActions.PlayerSamara.Attack.performed += Attack_performed;
         //playerInputActions.PlayerSamara.Item1.performed += Item_performed;
 
+    }
+
+    private void SpinLift_canceled(InputAction.CallbackContext obj) {
+        OnSpinLiftCancelInput?.Invoke(this, EventArgs.Empty);
     }
 
     private void Item_performed(InputAction.CallbackContext context) {
@@ -35,8 +41,8 @@ public class GameInput : MonoBehaviour {
         OnAttackInput?.Invoke(this, EventArgs.Empty);
     }
 
-    private void Jump_performed(InputAction.CallbackContext context) {
-        OnJumpInput?.Invoke(this, EventArgs.Empty);
+    private void SpinLift_performed(InputAction.CallbackContext context) {
+        OnSpinLiftInput?.Invoke(this, EventArgs.Empty);
     }
 
     public Vector2 GetMovementInput() {

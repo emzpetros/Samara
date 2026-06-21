@@ -141,9 +141,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""name"": ""Jump"",
                     ""type"": ""Button"",
                     ""id"": ""f1ba0d36-48eb-4cd5-b651-1c94a6531f70"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Hold"",
                     ""initialStateCheck"": false
                 },
                 {
@@ -612,12 +612,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Jump"",
+                    ""name"": ""SpinLift"",
                     ""type"": ""Button"",
                     ""id"": ""f6412f12-60fc-4ca8-b6fb-28a3413e1e27"",
-                    ""expectedControlType"": ""Button"",
+                    ""expectedControlType"": """",
                     ""processors"": """",
-                    ""interactions"": """",
+                    ""interactions"": ""Hold"",
                     ""initialStateCheck"": false
                 },
                 {
@@ -942,7 +942,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""Jump"",
+                    ""action"": ""SpinLift"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -953,7 +953,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
-                    ""action"": ""Jump"",
+                    ""action"": ""SpinLift"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -964,7 +964,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""XR"",
-                    ""action"": ""Jump"",
+                    ""action"": ""SpinLift"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -1634,7 +1634,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         m_PlayerSamara_Attack = m_PlayerSamara.FindAction("Attack", throwIfNotFound: true);
         m_PlayerSamara_Interact = m_PlayerSamara.FindAction("Interact", throwIfNotFound: true);
         m_PlayerSamara_Crouch = m_PlayerSamara.FindAction("Crouch", throwIfNotFound: true);
-        m_PlayerSamara_Jump = m_PlayerSamara.FindAction("Jump", throwIfNotFound: true);
+        m_PlayerSamara_SpinLift = m_PlayerSamara.FindAction("SpinLift", throwIfNotFound: true);
         m_PlayerSamara_Previous = m_PlayerSamara.FindAction("Previous", throwIfNotFound: true);
         m_PlayerSamara_Next = m_PlayerSamara.FindAction("Next", throwIfNotFound: true);
         m_PlayerSamara_Sprint = m_PlayerSamara.FindAction("Sprint", throwIfNotFound: true);
@@ -1921,7 +1921,7 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
     private readonly InputAction m_PlayerSamara_Attack;
     private readonly InputAction m_PlayerSamara_Interact;
     private readonly InputAction m_PlayerSamara_Crouch;
-    private readonly InputAction m_PlayerSamara_Jump;
+    private readonly InputAction m_PlayerSamara_SpinLift;
     private readonly InputAction m_PlayerSamara_Previous;
     private readonly InputAction m_PlayerSamara_Next;
     private readonly InputAction m_PlayerSamara_Sprint;
@@ -1957,9 +1957,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @Crouch => m_Wrapper.m_PlayerSamara_Crouch;
         /// <summary>
-        /// Provides access to the underlying input action "PlayerSamara/Jump".
+        /// Provides access to the underlying input action "PlayerSamara/SpinLift".
         /// </summary>
-        public InputAction @Jump => m_Wrapper.m_PlayerSamara_Jump;
+        public InputAction @SpinLift => m_Wrapper.m_PlayerSamara_SpinLift;
         /// <summary>
         /// Provides access to the underlying input action "PlayerSamara/Previous".
         /// </summary>
@@ -2013,9 +2013,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Crouch.started += instance.OnCrouch;
             @Crouch.performed += instance.OnCrouch;
             @Crouch.canceled += instance.OnCrouch;
-            @Jump.started += instance.OnJump;
-            @Jump.performed += instance.OnJump;
-            @Jump.canceled += instance.OnJump;
+            @SpinLift.started += instance.OnSpinLift;
+            @SpinLift.performed += instance.OnSpinLift;
+            @SpinLift.canceled += instance.OnSpinLift;
             @Previous.started += instance.OnPrevious;
             @Previous.performed += instance.OnPrevious;
             @Previous.canceled += instance.OnPrevious;
@@ -2051,9 +2051,9 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
             @Crouch.started -= instance.OnCrouch;
             @Crouch.performed -= instance.OnCrouch;
             @Crouch.canceled -= instance.OnCrouch;
-            @Jump.started -= instance.OnJump;
-            @Jump.performed -= instance.OnJump;
-            @Jump.canceled -= instance.OnJump;
+            @SpinLift.started -= instance.OnSpinLift;
+            @SpinLift.performed -= instance.OnSpinLift;
+            @SpinLift.canceled -= instance.OnSpinLift;
             @Previous.started -= instance.OnPrevious;
             @Previous.performed -= instance.OnPrevious;
             @Previous.canceled -= instance.OnPrevious;
@@ -2470,12 +2470,12 @@ public partial class @InputSystem_Actions: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnCrouch(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Jump" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "SpinLift" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnJump(InputAction.CallbackContext context);
+        void OnSpinLift(InputAction.CallbackContext context);
         /// <summary>
         /// Method invoked when associated input action "Previous" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>

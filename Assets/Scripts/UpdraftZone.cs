@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class UpdraftZone : MonoBehaviour
 {
-    [SerializeField] private float draftForce = 1000;
+    [SerializeField] private float draftForce = 2;
 
     private void OnTriggerEnter(Collider other) {
         PlayerController player;
