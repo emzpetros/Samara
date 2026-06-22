@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8772680639664713788}
   - component: {fileID: 3214725640062522652}
   - component: {fileID: 9070754814214143073}
+  - component: {fileID: 1512783772434079307}
   m_Layer: 0
   m_Name: GroundPrefab
   m_TagString: Untagged
@@ -29,8 +30,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -67,7 +68,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: af8cf8f9cf90e7240a1acb4af7395c76, type: 2}
+  - {fileID: 2100000, guid: a631fb7377799264289992abbca3e208, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -113,3 +114,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1512783772434079307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6316014880078472224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36bd061d39797224a802038171ca0390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GroundCover
+  leafPrefab: {fileID: 7944125220625427551, guid: fa94edaca72a37b408d701f2a6ef2348, type: 3}
+  dryLeafPrefab: {fileID: 1964386287930811083, guid: 1e3f291ded0286c4fa7339e0caa2c4a4, type: 3}
+  violaPrefab: {fileID: 6321549689827405548, guid: ffcf65a7fba2bf34d8a3030e12523ebc, type: 3}
+  treePrefabs:
+  - {fileID: 8334609028737295118, guid: a07fccef257da45469e05b8746220e9e, type: 3}
+  - {fileID: 4750640771319214790, guid: aa21227c5f669fb40bf7d9a76623e7f7, type: 3}
+  - {fileID: 5894985991780262650, guid: 22d09d82858254e4d93e8a422e5f3c40, type: 3}
