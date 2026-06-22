@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 615c28874c4176c40af26a53e98aef6f, type: 3}
   m_Name: AudioClipRefSO
   m_EditorClassIdentifier: Assembly-CSharp::AudioClipRefSO
-  windWhoosh: {fileID: 0}
+  windWhoosh: {fileID: 8300000, guid: c9f5bcfcee699ea4398496e1c14b680f, type: 3}
   gameOver: {fileID: 0}
   warningBeep: {fileID: 0}
   victory: {fileID: 0}

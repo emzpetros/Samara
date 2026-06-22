@@ -20,7 +20,9 @@ public class GroundCover : MonoBehaviour {
 
     private int seed = 12315;
     private Bounds bounds;
-    private void Awake() {
+
+    [ContextMenu("GenerateGroundCoverTrees")]
+    public void GenerateGroundCoverTrees() {
         seed += transform.GetSiblingIndex();
         Random.InitState(seed);
         Renderer renderer = GetComponent<Renderer>();
@@ -77,6 +79,14 @@ public class GroundCover : MonoBehaviour {
         }
         }
 
-
-
+    [ContextMenu("Clear Ground Cover Trees")]
+    public void Clear() {
+        // destroy all children so regeneration starts fresh
+        for (int i = transform.childCount - 1; i >= 0; i--) {
+            DestroyImmediate(transform.GetChild(i).gameObject);
+        }
     }
+
+
+
+}
