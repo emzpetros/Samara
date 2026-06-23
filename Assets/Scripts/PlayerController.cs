@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     public float LiftAmount { get => liftAmount; set => liftAmount = value; }
 
     private GameInput gameInput;
-    private Rigidbody rigidbody;
+    private Rigidbody rigidBody;
 
     [SerializeField] private  float SPIN_TORQUE = 150;
     [SerializeField] private  float MOVE_SPEED = 200;
@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     private bool hasGravity = false;
     private bool controlActive = false;
     private bool canLift = false;
+    private bool isStoppedVertically = false;
     private bool isSlowedVertically = false;
     private bool isRightSlowed = false;
     private bool isLeftSlowed = false;
@@ -37,18 +38,32 @@ public class PlayerController : MonoBehaviour
     private float liftAmount;
     private float liftConsumptionAmount = 1f;
 
+    private Camera mainCam;
+
+    [SerializeField] private float viewportPadding = 0.1f;
+
+    [SerializeField] private bool clampVertical = true;
+    [SerializeField] private float viewportPaddingTop = 0.05f;
+    
+    [SerializeField] private float viewportPaddingBottom = 0.25f;
+
+    [SerializeField] private float viewportPaddingVertical = 0.25f;
+
+
     private void Awake() {
         if (Instance != null) {
             Debug.LogError("More than one player instance");
         }
         Instance = this;
 
-        this.rigidbody = GetComponent<Rigidbody>();
+        this.rigidBody = GetComponent<Rigidbody>();
         liftAmount = LiftMaxAmount;
  
     }
     private void Start() {
         this.gameInput = GameInput.Instance;
+
+        mainCam = Camera.main;
         gameInput.OnSpinLiftInput += GameInput_OnSpinLiftInput;
         gameInput.OnSpinLiftCancelInput += GameInput_OnSpinLiftCancelInput;
     }
@@ -59,8 +74,11 @@ public class PlayerController : MonoBehaviour
     }
 
     private void GameInput_OnSpinLiftInput(object sender, System.EventArgs e) {
-        spinLift = true;
-        OnSpinStart?.Invoke(this, EventArgs.Empty);
+        if (canLift) {
+
+            spinLift = true;
+            OnSpinStart?.Invoke(this, EventArgs.Empty);
+        }
 
     }
 
@@ -70,9 +88,38 @@ public class PlayerController : MonoBehaviour
         HandleWind();
         HandleGravity();
         HandleSpinLift();
+        ClampToViewport();
 
         updraft = false;
     }
+    private void ClampToViewport() {
+
+        Vector3 viewPos = mainCam.WorldToViewportPoint(transform.position);
+
+        float clampedX = Mathf.Clamp(viewPos.x, viewportPadding, 1f - viewportPadding);
+        float clampedY = clampVertical
+            ? Mathf.Clamp(viewPos.y, viewportPaddingVertical, 1f - viewportPaddingVertical)
+            : viewPos.y;
+
+        Vector3 clampedWorld = mainCam.ViewportToWorldPoint(new Vector3(clampedX, clampedY, viewPos.z));
+
+
+        rigidBody.MovePosition(new Vector3(clampedWorld.x, clampedWorld.y, transform.position.z));
+
+        float vx = rigidBody.linearVelocity.x;
+        float vy = rigidBody.linearVelocity.y;
+
+        if (viewPos.x <= viewportPadding && vx < 0f) vx = 0f;
+        if (viewPos.x >= 1f - viewportPadding && vx > 0f) vx = 0f;
+
+        if (clampVertical) {
+            if (viewPos.y >= 1f - viewportPaddingVertical && vy > 0f) vy = 0f;
+            if (viewPos.y <= viewportPaddingVertical && vy < 0f) vy = 0f;
+        }
+
+        rigidBody.linearVelocity = new Vector3(vx, vy, rigidBody.linearVelocity.z);
+    }
+
 
     private void HandleMovement() {
         if (controlActive) {
@@ -88,19 +135,19 @@ public class PlayerController : MonoBehaviour
                 xInput = Mathf.Clamp(-xInput, -1f, 0f);
             }
 
-            rigidbody.linearVelocity = new Vector2( xInput * MOVE_SPEED * Time.deltaTime, rigidbody.linearVelocity.y);
+            rigidBody.linearVelocity = new Vector2( xInput * MOVE_SPEED * Time.deltaTime, rigidBody.linearVelocity.y);
            
         }
         float horizontalSlowMultipler = 2f;
         if (isRightSlowed || isLeftSlowed) {
 
-            rigidbody.linearVelocity = new Vector3(0f, rigidbody.linearVelocity.y, rigidbody.linearVelocity.z);
+            rigidBody.linearVelocity = new Vector3(0f, rigidBody.linearVelocity.y, rigidBody.linearVelocity.z);
         }
         if (isRightSlowed) {
-            rigidbody.AddForce(Vector3.left * LIFT_FORCE * horizontalSlowMultipler * Time.deltaTime);
+            rigidBody.AddForce(Vector3.left * LIFT_FORCE * horizontalSlowMultipler * Time.deltaTime);
         }
         if (isLeftSlowed) {
-            rigidbody.AddForce(Vector3.right * LIFT_FORCE * horizontalSlowMultipler * Time.deltaTime);
+            rigidBody.AddForce(Vector3.right * LIFT_FORCE * horizontalSlowMultipler * Time.deltaTime);
         }
 
    
@@ -110,13 +157,13 @@ public class PlayerController : MonoBehaviour
         Vector3 windInput = Vector3.zero;
         if (updraft) {
             windInput = Vector3.up * draftForce;
-            rigidbody.AddForce(windInput, ForceMode.Acceleration);
+            rigidBody.AddForce(windInput, ForceMode.Acceleration);
         }
     }
 
     private void HandleGravity() {
         if (hasGravity) { 
-            rigidbody.AddForce(Physics.gravity * GRAVITY_ACCELERATION, ForceMode.Acceleration);
+            rigidBody.AddForce(Physics.gravity * GRAVITY_ACCELERATION, ForceMode.Acceleration);
     }}
 
     private void HandleSpinLift() {
@@ -127,17 +174,22 @@ public class PlayerController : MonoBehaviour
             }
 
             if (spinLift) {
-                rigidbody.AddTorque(Vector3.up * SPIN_TORQUE * Time.deltaTime);
-                rigidbody.AddForce(Vector3.up * LIFT_FORCE * Time.deltaTime);
+                rigidBody.AddTorque(Vector3.up * SPIN_TORQUE * Time.deltaTime);
+                rigidBody.AddForce(Vector3.up * LIFT_FORCE * Time.deltaTime);
                 liftAmount -= liftConsumptionAmount * Time.deltaTime;
             }
         }
 
         if (isSlowedVertically) {
-            rigidbody.linearVelocity = new Vector3(rigidbody.linearVelocity.x, 0f, rigidbody.linearVelocity.z);
-            rigidbody.AddForce(Vector3.down * LIFT_FORCE * 0.75f * Time.deltaTime);
+            rigidBody.AddForce(Vector3.down * LIFT_FORCE * 1.1f * Time.deltaTime);
+        }
+
+        if (isStoppedVertically) {
+            rigidBody.linearVelocity = new Vector3(rigidBody.linearVelocity.x, 0f, rigidBody.linearVelocity.z);
+            rigidBody.AddForce(Vector3.down * LIFT_FORCE * 0.75f * Time.deltaTime);
         }
     }
+
 
     public void ApplyUpdraft(float draftForce) {
         updraft = true;
@@ -169,7 +221,7 @@ public class PlayerController : MonoBehaviour
     public void ToggleLeftSlow() {
     }
 
-    public void ToggleSlow(SLOW_DIR dir) {
+    public void ToggleStop(SLOW_DIR dir) {
         switch (dir) {
           case SLOW_DIR.Left:
                 allowLeft = !allowLeft;
@@ -181,16 +233,21 @@ public class PlayerController : MonoBehaviour
                 break;
         case SLOW_DIR.Up:
                 ToggleLift();
-            isSlowedVertically = !isSlowedVertically;
+            isStoppedVertically = !isStoppedVertically;
              
                 break;
     }
     }
 
+    public void ToggleSlow(SLOW_DIR dir) {
+        ToggleLift();
+        isSlowedVertically = !isSlowedVertically;
+    }
+
     public void EnableNormalBehavior() {
         isRightSlowed = false;
         isLeftSlowed = false;
-        isSlowedVertically = false;
+        isStoppedVertically = false;
 
         canLift = true;
         controlActive = true;
