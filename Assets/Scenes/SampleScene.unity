@@ -3345,7 +3345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 814e2acda63c4cd4886377ebe28c1bbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveLevel
-  FORWARD_SPEED: 2
+  FORWARD_SPEED: 1
   splineContainer: {fileID: 141502744}
 --- !u!1 &388310787
 GameObject:
@@ -17065,8 +17065,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1544799340898183148, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
+      propertyPath: LIFT_FORCE
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544799340898183148, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
+      propertyPath: MOVE_SPEED
+      value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544799340898183148, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
+      propertyPath: liftMaxAmount
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544799340898183148, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
       propertyPath: viewportPadding
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1544799340898183148, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
+      propertyPath: GRAVITY_ACCELERATION
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 1544799340898183148, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
       propertyPath: viewportPaddingVertical
