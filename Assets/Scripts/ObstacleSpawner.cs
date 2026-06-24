@@ -3,29 +3,86 @@ using UnityEngine.Splines;
 
 public class ObstacleSpawner : MonoBehaviour {
     [SerializeField] private GameObject[] branchPrefabs;
-    [SerializeField] private GameObject[] treePrefabs;
+    [SerializeField] private GameObject[] pickupPrefabs;
     [SerializeField] private GameObject[] rockPrefabs;
 
-    [SerializeField] private SplineContainer spline;
+    [SerializeField] private SplineContainer splineContainer;
+
+    [SerializeField] private float spawnCutfOff = 
+        .2f;
     private Bounds bounds;
 
-    private void Start() {
-        bounds = this.GetComponent<BoxCollider>().bounds;
+    [SerializeField] private int seed = 120;
+    [SerializeField] private float spacing = 10f;
 
-        float xDivisions = bounds.extents.x / 6f;
-        float yDivisions = bounds.extents.y / 6f;
+    //private void Start() {
+    //    bounds = this.GetComponent<BoxCollider>().bounds;
 
-        float[] xPositions = { xDivisions * 2, xDivisions * 4, xDivisions * 6 };
+    //    float xDivisions = bounds.extents.x / 6f;
+    //    float yDivisions = bounds.extents.y / 6f;
 
-        float[] yPositions = { yDivisions * 2, yDivisions * 4, yDivisions * 6 };
+    //    float[] xPositions = { xDivisions * 2, xDivisions * 4, xDivisions * 6 };
 
-        for (int i = 0; i < xPositions.Length; i++) {
-            for (int j = 0; j < yPositions.Length; j++) {
-                GameObject spawn = Instantiate(branchPrefabs[0], this.transform.position, Quaternion.identity, this.transform);
-                spawn.transform.localPosition = new Vector3(xPositions[i], yPositions[j],0f);
+    //    float[] yPositions = { yDivisions * 2, yDivisions * 4, yDivisions * 6 };
 
+    //    for (int i = 0; i < xPositions.Length; i++) {
+    //        for (int j = 0; j < yPositions.Length; j++) {
+    //            GameObject spawn = Instantiate(branchPrefabs[0], this.transform.position, Quaternion.identity, this.transform);
+    //            spawn.transform.localPosition = new Vector3(xPositions[i], yPositions[j],0f);
+
+    //        }
+    //    }
+
+    //}
+
+    [ContextMenu("GenerateObstacles")]
+    public void Generate() {
+        Random.InitState(seed);
+
+        Spline spline = splineContainer.Spline;
+        float length = spline.GetLength();
+        int count = Mathf.FloorToInt(length / spacing);
+        GameObject prefabToSpawn = null;
+        Debug.Log(length);
+
+        for (int i = 0; i < count; i++) {
+            float randNum = Random.Range(0f, 1f);
+
+            if (randNum < spawnCutfOff) {
+                prefabToSpawn = pickupPrefabs[Random.Range(0, pickupPrefabs.Length)] ;
+            }else if (spawnCutfOff <= randNum && randNum <= .9f) {
+                if (Random.Range(0, 2) == 0) {
+                    prefabToSpawn = branchPrefabs[Random.Range(0, branchPrefabs.Length)];
+                }
+                else {
+                    prefabToSpawn = rockPrefabs[Random.Range(0, rockPrefabs.Length)];
+                }
             }
+            else {
+                continue;
+            }
+
+
+                float t = i / (float)count;
+            spline.Evaluate(t, out var pos, out var tangent, out var up);
+
+
+            float zJitter = Random.Range(-0.1f, 0.1f);
+            //pos += up * zJitter;
+
+            Vector3 worldPos = splineContainer.transform.TransformPoint(pos);
+            var spawnedPrefab = Instantiate(prefabToSpawn, worldPos, Quaternion.identity, transform);
+            //spawnedPrefab.transform.localPosition = pos + Vector3.forward * zJitter;
         }
 
+
     }
+
+    [ContextMenu("Clear Obstacles")]
+    public void Clear() {
+        for (int i = transform.childCount - 1; i >= 0; i--) {
+            DestroyImmediate(transform.GetChild(i).gameObject);
+        }
+    }
+
 }

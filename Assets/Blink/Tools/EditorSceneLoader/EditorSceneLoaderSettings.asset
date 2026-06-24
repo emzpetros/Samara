@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EditorSceneLoaderSettings
   m_EditorClassIdentifier: Assembly-CSharp-Editor::Blink.ThirdParty.EditorSceneLoader.EditorSceneLoaderSettings
   sceneEntries:
-  - displayName: Scene 1
+  - displayName: Level1
     scene: {fileID: 102900000, guid: 99c9720ab356a0642a771bea13969a05, type: 3}
-  - displayName: Scene 2
-    scene: {fileID: 102900000, guid: 8becac2ae26402440aacc8b6a373ffef, type: 3}
+  - displayName: MainMenu
+    scene: {fileID: 102900000, guid: 54adedb4240e9b84fa5906179cdfca5b, type: 3}

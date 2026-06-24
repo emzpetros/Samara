@@ -21,6 +21,13 @@ public class SoundManager : MonoBehaviour
         player = PlayerController.Instance;
 
         player.OnSpinStart += Player_OnSpinStart;
+
+        player.OnObstacleHit += Player_OnObstacleHit;
+    }
+
+    private void Player_OnObstacleHit(object sender, EventArgs e) {
+
+        PlaySound(audioClipRefSO.bump, player.transform.position, 0.5f);
     }
 
     private void Player_OnSpinStart(object sender, EventArgs e) {

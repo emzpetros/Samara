@@ -14,9 +14,9 @@ public class GroundSpawner : MonoBehaviour
 
         spline = splineContainer.Spline;
         float length = spline.GetLength();
-        Debug.Log(length);
+    
         int count = Mathf.FloorToInt(length / groundSize);
-        Debug.Log(count);
+
 
         for (int i = 0; i < count; i++) {
             float t = i / (float)count;

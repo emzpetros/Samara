@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     public EventHandler OnSpinStart;
     public EventHandler OnSpinCancel;
+    public EventHandler OnObstacleHit;
 
     public static PlayerController Instance { get; private set; }
     public float LiftMaxAmount { get => liftMaxAmount; set => liftMaxAmount = value; }
@@ -114,12 +115,18 @@ public class PlayerController : MonoBehaviour
 
         if (clampVertical) {
             if (viewPos.y >= 1f - viewportPaddingVertical && vy > 0f) vy = 0f;
-            if (viewPos.y <= viewportPaddingVertical && vy < 0f) vy = 0f;
+            if (viewPos.y <= viewportPaddingVertical && vy < 0f) {
+                vy = 0f;
+                SlowDecreaseLift();
+            }
         }
 
         rigidBody.linearVelocity = new Vector3(vx, vy, rigidBody.linearVelocity.z);
     }
 
+    private void SlowDecreaseLift() {
+        liftAmount -= 0.01f;
+    }
 
     private void HandleMovement() {
         if (controlActive) {
@@ -253,6 +260,12 @@ public class PlayerController : MonoBehaviour
         controlActive = true;
         hasGravity = true;
     }
+
+    public void ObstacleHit(float hitPenalty) {
+        liftAmount += hitPenalty;
+        OnObstacleHit?.Invoke(this, EventArgs.Empty);
+    }
+
 }
 
 
