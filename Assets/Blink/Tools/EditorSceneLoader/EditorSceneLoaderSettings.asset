@@ -17,3 +17,9 @@ MonoBehaviour:
     scene: {fileID: 102900000, guid: 99c9720ab356a0642a771bea13969a05, type: 3}
   - displayName: MainMenu
     scene: {fileID: 102900000, guid: 54adedb4240e9b84fa5906179cdfca5b, type: 3}
+  - displayName: Credits
+    scene: {fileID: 102900000, guid: cdde651d33aeef2479bb18eb0aee97dc, type: 3}
+  - displayName: Level2
+    scene: {fileID: 102900000, guid: bb5d7041a54b4a649b321d3d0a5be6bd, type: 3}
+  - displayName: Level3
+    scene: {fileID: 102900000, guid: fe0388abf7595044582e89ec5c8df85e, type: 3}

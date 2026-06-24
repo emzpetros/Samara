@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
 
-public enum Scenes { Level1, Level2, Level3, MainMenu }
+public enum Scenes { Level1, Level2, Level3, MainMenu , Credits}
 public class MainMenuUI : MonoBehaviour
 {
     
