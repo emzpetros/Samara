@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public event EventHandler OnSpinStart;
     public event EventHandler OnSpinCancel;
     public event EventHandler OnObstacleHit;
+    public event EventHandler OnNoLift;
 
     public static PlayerController Instance { get; private set; }
     public float LiftMaxAmount { get => liftMaxAmount; set => liftMaxAmount = value; }
@@ -67,6 +68,12 @@ public class PlayerController : MonoBehaviour
         mainCam = Camera.main;
         gameInput.OnSpinLiftInput += GameInput_OnSpinLiftInput;
         gameInput.OnSpinLiftCancelInput += GameInput_OnSpinLiftCancelInput;
+    }
+
+    private void Update() {
+        if (liftAmount < 0) {
+            OnNoLift?.Invoke(this, EventArgs.Empty);
+        }
     }
 
     private void GameInput_OnSpinLiftCancelInput(object sender, System.EventArgs e) {

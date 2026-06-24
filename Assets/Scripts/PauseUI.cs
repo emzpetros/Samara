@@ -12,15 +12,14 @@ public class PauseUI : MonoBehaviour
     private bool paused = false;
     private GameInput gameInput;
 
-    private void Awake() {
+
+    private void Start() {
         gameInput = GameInput.Instance;
         mainMenuButton.onClick.AddListener(MainMenu_OnClick);
 
 
         resumeButton.onClick.AddListener(Resume_OnClick);
-    }
-
-    private void Start() {
+        pauseVisuals.SetActive(false);
         gameInput.OnPause += GameInput_OnPause;
     }
 

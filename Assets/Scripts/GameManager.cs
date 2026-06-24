@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private Button startButton;
     [SerializeField] private MoveLevel level;
+    [SerializeField] private GameObject gameOverScreen;
 
     private PlayerController playerController;
 
@@ -16,6 +17,12 @@ public class GameManager : MonoBehaviour
     private void Start() {
         startButton.onClick.AddListener(OnStart);
         playerController = PlayerController.Instance;
+        playerController.OnNoLift += PlayerController_OnNoLift;
+    }
+
+    private void PlayerController_OnNoLift(object sender, System.EventArgs e) {
+        Time.timeScale = 0;
+        gameOverScreen.SetActive(true);
     }
 
     private void OnStart() {
@@ -27,7 +34,7 @@ public class GameManager : MonoBehaviour
         level.ToggleMovement();
     }
 
-    public void EndLevel() {
+    public void LevelComplete() {
         Debug.Log("End");
     }
 }
