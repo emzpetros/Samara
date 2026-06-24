@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.Splines;
 
 public class ObstacleSpawner : MonoBehaviour {
     [SerializeField] private GameObject[] branchPrefabs;
     [SerializeField] private GameObject[] treePrefabs;
     [SerializeField] private GameObject[] rockPrefabs;
 
+    [SerializeField] private SplineContainer spline;
     private Bounds bounds;
 
     private void Start() {

@@ -15,8 +15,8 @@ public class GroundCover : MonoBehaviour {
 
     private int treeCountMin = 5;
     private int treeCountMax = 10;
-    private float treeEdgeOffset = 2f;
-    private float treeXJitter = 10f;
+    private float treeEdgeOffset = 50f;
+    private float treeXJitter = 5f;
 
     private int seed = 12315;
     private Bounds bounds;
