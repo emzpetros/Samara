@@ -11,6 +11,7 @@ public class GameInput : MonoBehaviour {
     public event EventHandler OnSpinLiftCancelInput;
     public event EventHandler OnAttackInput;
     public event EventHandler OnItemInput;
+    public event EventHandler OnPause;
 
     private void Awake() {
         Instance = this;
@@ -24,9 +25,14 @@ public class GameInput : MonoBehaviour {
 
         playerInputActions.PlayerSamara.SpinLift.performed += SpinLift_performed;
         playerInputActions.PlayerSamara.SpinLift.canceled += SpinLift_canceled;
+        playerInputActions.PlayerSamara.Pause.performed += Pause_performed;
         //playerInputActions.PlayerSamara.Attack.performed += Attack_performed;
         //playerInputActions.PlayerSamara.Item1.performed += Item_performed;
 
+    }
+
+    private void Pause_performed(InputAction.CallbackContext obj) {
+        OnPause?.Invoke(this, EventArgs.Empty);
     }
 
     private void SpinLift_canceled(InputAction.CallbackContext obj) {

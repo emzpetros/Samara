@@ -5,9 +5,9 @@ using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
-    public EventHandler OnSpinStart;
-    public EventHandler OnSpinCancel;
-    public EventHandler OnObstacleHit;
+    public event EventHandler OnSpinStart;
+    public event EventHandler OnSpinCancel;
+    public event EventHandler OnObstacleHit;
 
     public static PlayerController Instance { get; private set; }
     public float LiftMaxAmount { get => liftMaxAmount; set => liftMaxAmount = value; }

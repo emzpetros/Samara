@@ -10,12 +10,30 @@ public class PauseUI : MonoBehaviour
     [SerializeField] private Button resumeButton;
 
     private bool paused = false;
+    private GameInput gameInput;
 
     private void Awake() {
+        gameInput = GameInput.Instance;
         mainMenuButton.onClick.AddListener(MainMenu_OnClick);
 
 
         resumeButton.onClick.AddListener(Resume_OnClick);
+    }
+
+    private void Start() {
+        gameInput.OnPause += GameInput_OnPause;
+    }
+
+    private void GameInput_OnPause(object sender, EventArgs e) {
+        if (!paused) {
+
+            pauseVisuals.SetActive(true);
+            Time.timeScale = 0;
+            paused = true;
+        }
+        else {
+            Unpause();
+        }
     }
 
     private void Resume_OnClick() {
@@ -27,20 +45,7 @@ public class PauseUI : MonoBehaviour
         SceneManager.LoadScene(Scenes.MainMenu.ToString());
     }
 
-    // Update is called once per frame
-    void Update() {
-        if (Input.GetKeyDown(KeyCode.Escape)) {
-            if (!paused) {
-
-                pauseVisuals.SetActive(true);
-                Time.timeScale = 0;
-                paused = true;
-            }
-            else {
-                Unpause();
-            }
-        }
-    }
+  
 
     private void Unpause() {
         pauseVisuals.SetActive(false);
