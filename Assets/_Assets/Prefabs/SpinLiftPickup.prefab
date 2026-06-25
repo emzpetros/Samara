@@ -201,10 +201,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 93208ef984d2f1641a778bb8a170392b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4946512550369626880}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 93208ef984d2f1641a778bb8a170392b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 472570440152430670}
+      addedObject: {fileID: 416083776788351122}
   m_SourcePrefab: {fileID: 100100000, guid: 93208ef984d2f1641a778bb8a170392b, type: 3}
 --- !u!4 &5149907975549612537 stripped
 Transform:
@@ -216,7 +213,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 93208ef984d2f1641a778bb8a170392b, type: 3}
   m_PrefabInstance: {fileID: 4679978308222883346}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4946512550369626880
+--- !u!114 &416083776788351122
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -225,36 +222,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5491003572883925827}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad0f81b522d39ed4dbd218b77e27455b, type: 3}
+  m_Script: {fileID: 11500000, guid: da17a8bf8e69d3c4b838adcb7cc62f83, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Spin
---- !u!54 &472570440152430670
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5491003572883925827}
-  serializedVersion: 5
-  m_Mass: 5
-  m_LinearDamping: 0
-  m_AngularDamping: 1
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_EditorClassIdentifier: Assembly-CSharp::SpinTransform
+  SPIN_SPEED: 3
 --- !u!1001 &7857027812640139831
 PrefabInstance:
   m_ObjectHideFlags: 0

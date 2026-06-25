@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5346139815329558213}
   - component: {fileID: 5921856020509156447}
   - component: {fileID: 2408117771410879732}
-  - component: {fileID: 1264527811811264810}
+  - component: {fileID: 219121265025203282}
   m_Layer: 0
   m_Name: Rock_C
   m_TagString: Untagged
@@ -104,15 +104,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39f6d4362b14f244b96d87cc892b1b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obstacle
---- !u!114 &1264527811811264810
-MonoBehaviour:
+--- !u!64 &219121265025203282
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1209304300992929690}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c39f6d4362b14f244b96d87cc892b1b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Obstacle
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -101496668972229048, guid: 837b7a468446c644b890b8efae8cbfe5, type: 3}

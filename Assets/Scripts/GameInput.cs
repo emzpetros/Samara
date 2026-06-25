@@ -56,4 +56,7 @@ public class GameInput : MonoBehaviour {
 
         return input.normalized;
     }
+    private void OnDestroy() {
+        playerInputActions.Disable();
+    }
 }

@@ -9,5 +9,5 @@ public class AudioClipRefSO : ScriptableObject {
     public AudioClip bump;
     //public AudioClip success;
     //public AudioClip failure;
-    //public AudioClip pickup;
+    public AudioClip pickup;
 }

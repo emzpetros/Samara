@@ -1,8 +1,10 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public event EventHandler OnLevelComplete;
     public static GameManager Instance { get; private set; }
 
     [SerializeField] private Button startButton;
@@ -37,6 +39,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void LevelComplete() {
+        OnLevelComplete?.Invoke(this, EventArgs.Empty);
         Time.timeScale = 0;
         winUI.SetActive(true);
     }

@@ -275,7 +275,6 @@ GameObject:
   - component: {fileID: 7467941987064550865}
   - component: {fileID: 5549619463044915782}
   - component: {fileID: 6994321586224220162}
-  - component: {fileID: 4287057715123193276}
   m_Layer: 5
   m_Name: WinLabel
   m_TagString: Untagged
@@ -330,7 +329,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: <incr>You Win!</incr>
+  m_text: You Win!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 718e91392342b7d49bcf94c2b14c57ad, type: 2}
   m_sharedMaterial: {fileID: -8339347427659437668, guid: 718e91392342b7d49bcf94c2b14c57ad, type: 2}
@@ -402,34 +401,6 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &4287057715123193276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3111734151501439217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8ace8ced0e81c847968cdca0aeda757, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Febucci.TextAnimatorForUnity.TMP.Runtime::Febucci.TextAnimatorForUnity.TextMeshPro.TextAnimator_TMP
-  localSettings:
-    isResettingTimeOnNewText: 1
-    defaultEffectsMode: 1
-    timeScale: 0
-    defaultBehaviorTags: []
-    defaultAppearanceTags: []
-    defaultDisappearanceTags: []
-    isAnimatingBehaviors: 1
-    isAnimatingAppearances: 1
-    isAnimatingDisappearances: 1
-    useDynamicScaling: 1
-    referenceFontSize: 12
-  sharedSettings: {fileID: 11400000, guid: 503730955ff7ed9468949780cdcb9806, type: 2}
-  animationLoop: 0
-  databaseEffects: {fileID: 0}
-  styleSheet: {fileID: 0}
 --- !u!1 &3659692771383837014
 GameObject:
   m_ObjectHideFlags: 0

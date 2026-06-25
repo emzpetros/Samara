@@ -20,6 +20,6 @@ MonoBehaviour:
   - displayName: Credits
     scene: {fileID: 102900000, guid: cdde651d33aeef2479bb18eb0aee97dc, type: 3}
   - displayName: Level2
-    scene: {fileID: 102900000, guid: bb5d7041a54b4a649b321d3d0a5be6bd, type: 3}
+    scene: {fileID: 102900000, guid: fe6370477f3414f489f4545accffa8f9, type: 3}
   - displayName: Level3
-    scene: {fileID: 102900000, guid: fe0388abf7595044582e89ec5c8df85e, type: 3}
+    scene: {fileID: 102900000, guid: cd2a8440710cf994da434c8ba4f1c60e, type: 3}

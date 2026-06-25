@@ -12,11 +12,19 @@ public class MainMenuUI : MonoBehaviour
     [SerializeField] private Button level3Button;
     [SerializeField] private Button QuitButton;
 
+    [SerializeField] private Button CreditsButton;
+
     private void Awake() {
         level1Button.onClick.AddListener(Level1_OnClick);
-        level1Button.onClick.AddListener(Level2_OnClick);
-        level1Button.onClick.AddListener(Level3_OnClick);
-        level1Button.onClick.AddListener(Quit_OnClick);
+        level2Button.onClick.AddListener(Level2_OnClick);
+        level3Button.onClick.AddListener(Level3_OnClick);
+        QuitButton.onClick.AddListener(Quit_OnClick);
+
+        CreditsButton.onClick.AddListener(Credits_OnClick);
+    }
+
+    private void Credits_OnClick() {
+       SceneManager.LoadScene(Scenes.Credits.ToString());   
     }
 
     private void Quit_OnClick() {

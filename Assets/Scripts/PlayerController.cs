@@ -9,6 +9,9 @@ public class PlayerController : MonoBehaviour
     public event EventHandler OnSpinCancel;
     public event EventHandler OnObstacleHit;
     public event EventHandler OnNoLift;
+    public event EventHandler OnLiftPickup;
+
+    public event EventHandler OnLowLift;
 
     public static PlayerController Instance { get; private set; }
     public float LiftMaxAmount { get => liftMaxAmount; set => liftMaxAmount = value; }
@@ -71,6 +74,9 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Update() {
+        if (liftAmount < 0.1f * liftMaxAmount) {
+            OnLowLift?.Invoke(this, EventArgs.Empty);
+        }
         if (liftAmount < 0) {
             OnNoLift?.Invoke(this, EventArgs.Empty);
         }
@@ -212,6 +218,7 @@ public class PlayerController : MonoBehaviour
 
     public void AddLiftAmount(float amount) {
         this.liftAmount += amount;
+        OnLiftPickup?.Invoke(this, EventArgs.Empty);
     }
 
     public void ToggleGravity() {

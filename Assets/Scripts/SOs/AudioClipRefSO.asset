@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: AudioClipRefSO
   m_EditorClassIdentifier: Assembly-CSharp::AudioClipRefSO
   windWhoosh: {fileID: 8300000, guid: c9f5bcfcee699ea4398496e1c14b680f, type: 3}
-  gameOver: {fileID: 0}
-  warningBeep: {fileID: 0}
-  victory: {fileID: 0}
-  bump: {fileID: 0}
+  gameOver: {fileID: 8300000, guid: 7fc1c8f3695704f4f98bcfc0594e49b0, type: 3}
+  warningBeep: {fileID: 8300000, guid: cc46c0a3ecf748d4b8bb0b8f956bc04a, type: 3}
+  victory: {fileID: 8300000, guid: 332f86b928f4a4f419f3185ca3e36c44, type: 3}
+  bump: {fileID: 8300000, guid: 562cdf669f8631a4abe8a6a8ed9216dd, type: 3}
+  pickup: {fileID: 8300000, guid: 1649054daf6f5f540bec66323e0b35a1, type: 3}
