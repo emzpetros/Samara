@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private MoveLevel level;
     [SerializeField] private GameObject gameOverScreen;
 
+    [SerializeField] private GameObject winUI;
+
     private PlayerController playerController;
 
     private void Awake() {
@@ -35,6 +37,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void LevelComplete() {
-        Debug.Log("End");
+        Time.timeScale = 0;
+        winUI.SetActive(true);
     }
 }

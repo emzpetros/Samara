@@ -70,9 +70,12 @@ public class ObstacleSpawner : MonoBehaviour {
             float zJitter = Random.Range(-0.1f, 0.1f);
             //pos += up * zJitter;
 
-            Vector3 worldPos = splineContainer.transform.TransformPoint(pos);
-            var spawnedPrefab = Instantiate(prefabToSpawn, worldPos, Quaternion.identity, transform);
-            //spawnedPrefab.transform.localPosition = pos + Vector3.forward * zJitter;
+            // pos is in spline local space — convert to spawner's local space
+            Vector3 localPos = splineContainer.transform.TransformPoint(pos);
+            localPos = transform.InverseTransformPoint(localPos); // make it relative to spawner
+
+            var spawnedPrefab = Instantiate(prefabToSpawn, Vector3.zero, Quaternion.identity, transform);
+            spawnedPrefab.transform.localPosition = localPos; // set local, not world
         }
 
 

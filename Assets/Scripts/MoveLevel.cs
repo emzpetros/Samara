@@ -25,8 +25,19 @@ public class MoveLevel : MonoBehaviour
 
             splineContainer.Spline.Evaluate(t, out var pos, out var tangent, out var up);
 
-            // snap the level so current spline point sits exactly at player position
-            transform.position = playerStart + groundOffset- (Vector3)pos;
+            //// snap the level so current spline point sits exactly at player position
+            //transform.position = playerStart + groundOffset- (Vector3)pos;
+
+            // 1. ROTATION FIRST
+            if ((Vector3)tangent != Vector3.zero) {
+                Quaternion targetRot = Quaternion.FromToRotation((Vector3)tangent, Vector3.forward);
+                transform.rotation = Quaternion.Euler(0, targetRot.eulerAngles.y, 0);
+            }
+
+            // 2. POSITION SECOND — now uses the rotated transform
+            // rotate pos by the level's new rotation before subtracting
+            Vector3 rotatedPos = transform.rotation * (Vector3)pos;
+            transform.position = playerStart + groundOffset - rotatedPos;
         }
     }
 

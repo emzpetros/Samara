@@ -7,6 +7,7 @@ public class LiftPickup : MonoBehaviour
         PlayerController player;
         if (other.gameObject.TryGetComponent<PlayerController>(out player) ){
             player.AddLiftAmount(LIFT_ADD_AMOUNT);
+            Destroy(this.gameObject);
         }
 
         

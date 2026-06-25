@@ -27,7 +27,7 @@ public class SoundManager : MonoBehaviour
 
     private void Player_OnObstacleHit(object sender, EventArgs e) {
 
-        PlaySound(audioClipRefSO.bump, player.transform.position, 0.5f);
+        //PlaySound(audioClipRefSO.bump, player.transform.position, 0.5f);
     }
 
     private void Player_OnSpinStart(object sender, EventArgs e) {

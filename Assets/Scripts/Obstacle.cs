@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    [SerializeField] private const float LIFT_SUBTRACT_AMOUNT = -1f;
+    [SerializeField] private const float LIFT_SUBTRACT_AMOUNT = -2f;
 
 
 

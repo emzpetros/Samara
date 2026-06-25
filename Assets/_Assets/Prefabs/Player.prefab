@@ -4903,7 +4903,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.28
+  m_Radius: 0.15
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1544799340898183148
 MonoBehaviour:
@@ -4918,10 +4918,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   SPIN_TORQUE: 150
-  MOVE_SPEED: 200
-  LIFT_FORCE: 750
-  GRAVITY_ACCELERATION: 0.4
+  MOVE_SPEED: 75
+  LIFT_FORCE: 500
+  GRAVITY_ACCELERATION: 0.45
   liftMaxAmount: 20
+  viewportPadding: 0.1
+  clampVertical: 1
+  viewportPaddingTop: 0.05
+  viewportPaddingBottom: 0.25
+  viewportPaddingVertical: 0.1
 --- !u!54 &1130440865563033735
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4946,7 +4951,7 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 0
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!1 &3221618973644516086
@@ -4975,7 +4980,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
+  m_LocalScale: {x: 0.003, y: 0.003, z: 0.003}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2355442178588167635}
