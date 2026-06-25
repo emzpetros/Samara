@@ -53,6 +53,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float viewportPaddingBottom = 0.25f;
 
     [SerializeField] private float viewportPaddingVertical = 0.25f;
+    private bool wasLowLift = false;
+private bool wasNoLift = false;
 
 
     private void Awake() {
@@ -74,12 +76,17 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Update() {
-        if (liftAmount < 0.1f * liftMaxAmount) {
+        bool isLowLift = liftAmount < 0.15f * liftMaxAmount;
+        bool isNoLift = liftAmount < 0;
+
+        if (isLowLift && !wasLowLift)
             OnLowLift?.Invoke(this, EventArgs.Empty);
-        }
-        if (liftAmount < 0) {
+
+        if (isNoLift && !wasNoLift)
             OnNoLift?.Invoke(this, EventArgs.Empty);
-        }
+
+        wasLowLift = isLowLift;
+        wasNoLift = isNoLift;
     }
 
     private void GameInput_OnSpinLiftCancelInput(object sender, System.EventArgs e) {
