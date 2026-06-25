@@ -1247,6 +1247,7 @@ GameObject:
   - component: {fileID: 1576057411}
   - component: {fileID: 1576057410}
   - component: {fileID: 1576057409}
+  - component: {fileID: 1576057412}
   m_Layer: 5
   m_Name: ScrollText
   m_TagString: Untagged
@@ -1270,7 +1271,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -110}
+  m_AnchoredPosition: {x: 0, y: -1366}
   m_SizeDelta: {x: 1900, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1576057409
@@ -1332,8 +1333,42 @@ MonoBehaviour:
     - Music Background from Delon_Boomkin on Pixabay
 
 
-    Detailed Asset Pack Info:
-    https://thaliazhu.itch.io/samara'
+    Sounds
+
+    GDC 2026 Sounds
+    Bundle https://gdc.sonniss.com/fw
+
+
+    Assets
+
+    Maple Tree Seed Model: https://sketchfab.com/3d-models/maple-tree-seed-9c166c4a77fd46649cef7b53aa80dbdd
+
+    "Maple
+    Tree Seed" (https://skfb.ly/oTICY) by RISD Nature Lab is licensed under Creative
+    Commons Attribution (http://creativecommons.org/licenses/by/4.0/
+
+    Maple
+    Leaf Model: https://sketchfab.com/3d-models/maple-leaf-c06c7cf93eda435dbc5cccf7511907ac#download
+
+
+    Unity
+    Asset Store Asset Packs:
+
+    2D Mobile Game
+
+    Essential Nature
+
+    Text
+    Animator
+
+    Trees Collection Asset PBR
+
+    Ultimate Nature Pack
+
+    Fan
+    Spin Effect: Wind Particles
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 40c1f66928eff5c4bbe666fe8d44cea3, type: 2}
   m_sharedMaterial: {fileID: -8339347427659437668, guid: 40c1f66928eff5c4bbe666fe8d44cea3, type: 2}
@@ -1413,6 +1448,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1576057407}
   m_CullTransparentMesh: 1
+--- !u!114 &1576057412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576057407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd27d7bcad38b74b952bfaf463501fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ScrollUIDown
+  scrollSpeed: 100
 --- !u!1001 &1581276675
 PrefabInstance:
   m_ObjectHideFlags: 0
