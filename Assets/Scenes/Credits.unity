@@ -463,6 +463,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 401220316521543959, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1130440865563033735, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
       propertyPath: m_Interpolate
       value: 1
@@ -596,6 +600,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0f81b522d39ed4dbd218b77e27455b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spin
+--- !u!1 &362727363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5803588329040792131, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
+  m_PrefabInstance: {fileID: 362727360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &362727364 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9037011959283880670, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
+  m_PrefabInstance: {fileID: 362727360}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &399328326
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,6 +646,67 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399328326}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &407156132
+GameObject:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 407156134}
+  - component: {fileID: 407156133}
+  m_Layer: 0
+  m_Name: Prefab Indexer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &407156133
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407156132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05a7c62fccbafd342991629222351294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityPlayModeSaver::Framework.Utils.UnityPlayModeSaverSceneUtils
+  _scenePrefabInstances:
+  - _gameObject: {fileID: 362727361}
+    _prefab: Assets/_Assets/Prefabs/Player.prefab
+  - _gameObject: {fileID: 362727364}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 362727363}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 931661053}
+    _prefab: Assets/_Assets/Prefabs/Player.prefab
+  - _gameObject: {fileID: 931661056}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 931661055}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 1581276676}
+    _prefab: Assets/_Assets/Prefabs/PauseUi.prefab
+  - _gameObject: {fileID: 1303604028}
+    _prefab: Assets/_Assets/Prefabs/GameInput.prefab
+--- !u!4 &407156134
+Transform:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407156132}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -824,6 +899,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 401220316521543959, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1130440865563033735, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
       propertyPath: m_Interpolate
       value: 1
@@ -957,6 +1036,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0f81b522d39ed4dbd218b77e27455b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spin
+--- !u!1 &931661055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5803588329040792131, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
+  m_PrefabInstance: {fileID: 931661052}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &931661056 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9037011959283880670, guid: 79bffacced57e514aa2c517d95a6a5d7, type: 3}
+  m_PrefabInstance: {fileID: 931661052}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1012710899
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,6 +1214,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3fc99de67d3433458d39ff6d2371549, type: 3}
+--- !u!1 &1303604028 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8578607417980777780, guid: d3fc99de67d3433458d39ff6d2371549, type: 3}
+  m_PrefabInstance: {fileID: 1303604027}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1417751546 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2260015970403209651, guid: 69de4239b49598c48a85cb811523b93f, type: 3}
@@ -1347,8 +1441,8 @@ MonoBehaviour:
     Tree Seed" (https://skfb.ly/oTICY) by RISD Nature Lab is licensed under Creative
     Commons Attribution (http://creativecommons.org/licenses/by/4.0/
 
-    Maple
-    Leaf Model: https://sketchfab.com/3d-models/maple-leaf-c06c7cf93eda435dbc5cccf7511907ac#download
+    Maple Leaf
+    Model: https://sketchfab.com/3d-models/maple-leaf-c06c7cf93eda435dbc5cccf7511907ac#download
 
 
     Unity
@@ -1365,8 +1459,8 @@ MonoBehaviour:
 
     Ultimate Nature Pack
 
-    Fan
-    Spin Effect: Wind Particles
+    Fan Spin
+    Effect: Wind Particles
 
 '
   m_isRightToLeft: 0
@@ -1558,6 +1652,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69de4239b49598c48a85cb811523b93f, type: 3}
+--- !u!1 &1581276676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4397159697387618944, guid: 69de4239b49598c48a85cb811523b93f, type: 3}
+  m_PrefabInstance: {fileID: 1581276675}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1866051584
 GameObject:
   m_ObjectHideFlags: 0
@@ -1765,3 +1864,4 @@ SceneRoots:
   - {fileID: 1573956381}
   - {fileID: 2024008210}
   - {fileID: 1303604027}
+  - {fileID: 407156134}
