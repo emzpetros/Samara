@@ -344,13 +344,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 17250710}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &17250710
 Transform:
   m_ObjectHideFlags: 0
@@ -380,7 +380,7 @@ GameObject:
   - component: {fileID: 18422356}
   - component: {fileID: 18422358}
   - component: {fileID: 18422357}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,7 +410,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18422355}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -730,7 +730,7 @@ GameObject:
   - component: {fileID: 34476257}
   - component: {fileID: 34476256}
   - component: {fileID: 34476255}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -842,7 +842,7 @@ GameObject:
   - component: {fileID: 41904619}
   - component: {fileID: 41904621}
   - component: {fileID: 41904620}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -872,7 +872,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41904618}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1266,10 +1266,46 @@ MonoBehaviour:
     _prefab: Assets/_Assets/Prefabs/WinUI.prefab
   - _gameObject: {fileID: 1582261255}
     _prefab: Assets/_Assets/Prefabs/EndZone.prefab
-  - _gameObject: {fileID: 1582261254}
-    _prefab: Assets/ThirdParty/klen/Model/Maple_12338Poly.fbx
   - _gameObject: {fileID: 1582261252}
     _prefab: Assets/ThirdParty/Ultimate Nature Pack/Particle Effects/Mystic Forest.prefab
+  - _gameObject: {fileID: 1582261273}
+    _prefab: Assets/_Assets/Prefabs/Player.prefab
+  - _gameObject: {fileID: 1582261272}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 1582261271}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 1582261270}
+    _prefab: Assets/_Assets/Prefabs/Player.prefab
+  - _gameObject: {fileID: 1582261269}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 1582261268}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 1582261267}
+    _prefab: Assets/_Assets/Prefabs/Player.prefab
+  - _gameObject: {fileID: 1582261266}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 1582261265}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 1582261264}
+    _prefab: Assets/_Assets/Prefabs/Player.prefab
+  - _gameObject: {fileID: 1582261263}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 1582261262}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 1582261261}
+    _prefab: Assets/_Assets/Prefabs/Player.prefab
+  - _gameObject: {fileID: 1582261260}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 1582261259}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 1582261258}
+    _prefab: Assets/_Assets/Prefabs/Player.prefab
+  - _gameObject: {fileID: 1582261257}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 1582261256}
+    _prefab: Assets/_Assets/Prefabs/Samara.prefab
+  - _gameObject: {fileID: 1582261254}
+    _prefab: Assets/ThirdParty/Ultimate Nature Pack/Particle Effects/Mist.prefab
 --- !u!4 &51036827
 Transform:
   m_ObjectHideFlags: 11
@@ -1297,7 +1333,7 @@ GameObject:
   - component: {fileID: 54724003}
   - component: {fileID: 54724002}
   - component: {fileID: 54724001}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1665,7 +1701,7 @@ GameObject:
   - component: {fileID: 85336580}
   - component: {fileID: 85336582}
   - component: {fileID: 85336581}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1695,7 +1731,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 85336579}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2096,7 +2132,7 @@ GameObject:
   - component: {fileID: 102057212}
   - component: {fileID: 102057214}
   - component: {fileID: 102057213}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2126,7 +2162,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 102057211}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2253,7 +2289,7 @@ GameObject:
   - component: {fileID: 105170531}
   - component: {fileID: 105170530}
   - component: {fileID: 105170529}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2471,7 +2507,7 @@ GameObject:
   - component: {fileID: 108019677}
   - component: {fileID: 108019676}
   - component: {fileID: 108019675}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2643,7 +2679,7 @@ GameObject:
   - component: {fileID: 114100445}
   - component: {fileID: 114100444}
   - component: {fileID: 114100443}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2929,7 +2965,7 @@ GameObject:
   - component: {fileID: 131555976}
   - component: {fileID: 131555975}
   - component: {fileID: 131555974}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3464,7 +3500,7 @@ GameObject:
   - component: {fileID: 153394544}
   - component: {fileID: 153394543}
   - component: {fileID: 153394542}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3936,7 +3972,7 @@ GameObject:
   - component: {fileID: 200067582}
   - component: {fileID: 200067581}
   - component: {fileID: 200067580}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4183,7 +4219,7 @@ GameObject:
   - component: {fileID: 209339487}
   - component: {fileID: 209339486}
   - component: {fileID: 209339485}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4512,7 +4548,7 @@ GameObject:
   - component: {fileID: 235650515}
   - component: {fileID: 235650514}
   - component: {fileID: 235650513}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup(Clone)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5241,13 +5277,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 300694486}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &300694486
 Transform:
   m_ObjectHideFlags: 0
@@ -5278,7 +5314,7 @@ GameObject:
   - component: {fileID: 307747535}
   - component: {fileID: 307747534}
   - component: {fileID: 307747533}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5597,8 +5633,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331197362}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1025519, y: 0, z: 240.08221}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.87, y: 0, z: 240.08221}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5617,7 +5653,7 @@ GameObject:
   - component: {fileID: 331926504}
   - component: {fileID: 331926506}
   - component: {fileID: 331926505}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5647,7 +5683,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 331926503}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -5742,7 +5778,7 @@ GameObject:
   - component: {fileID: 333299959}
   - component: {fileID: 333299961}
   - component: {fileID: 333299960}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5772,7 +5808,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333299958}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6010,7 +6046,7 @@ GameObject:
   - component: {fileID: 336781252}
   - component: {fileID: 336781254}
   - component: {fileID: 336781253}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6040,7 +6076,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336781251}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6495,13 +6531,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 362190554}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &362190554
 Transform:
   m_ObjectHideFlags: 0
@@ -6703,7 +6739,7 @@ GameObject:
   - component: {fileID: 373283890}
   - component: {fileID: 373283889}
   - component: {fileID: 373283888}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8551,7 +8587,7 @@ GameObject:
   - component: {fileID: 463004872}
   - component: {fileID: 463004871}
   - component: {fileID: 463004870}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9051,13 +9087,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 496111324}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &496111324
 Transform:
   m_ObjectHideFlags: 0
@@ -9179,7 +9215,7 @@ GameObject:
   - component: {fileID: 502421850}
   - component: {fileID: 502421849}
   - component: {fileID: 502421848}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9685,7 +9721,7 @@ GameObject:
   - component: {fileID: 561180297}
   - component: {fileID: 561180299}
   - component: {fileID: 561180298}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9715,7 +9751,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561180296}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10279,7 +10315,7 @@ GameObject:
   - component: {fileID: 596625264}
   - component: {fileID: 596625263}
   - component: {fileID: 596625262}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10813,7 +10849,7 @@ GameObject:
   - component: {fileID: 607831934}
   - component: {fileID: 607831933}
   - component: {fileID: 607831932}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10967,13 +11003,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 630930150}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &630930150
 Transform:
   m_ObjectHideFlags: 0
@@ -11182,7 +11218,7 @@ GameObject:
   - component: {fileID: 640039943}
   - component: {fileID: 640039945}
   - component: {fileID: 640039944}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11212,7 +11248,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 640039942}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12353,13 +12389,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 691572743}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &691572743
 Transform:
   m_ObjectHideFlags: 0
@@ -12502,7 +12538,7 @@ GameObject:
   - component: {fileID: 695662154}
   - component: {fileID: 695662156}
   - component: {fileID: 695662155}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12532,7 +12568,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695662153}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12838,7 +12874,7 @@ GameObject:
   - component: {fileID: 715521082}
   - component: {fileID: 715521084}
   - component: {fileID: 715521083}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12868,7 +12904,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 715521081}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13298,13 +13334,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 729440568}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &729440568
 Transform:
   m_ObjectHideFlags: 0
@@ -13531,7 +13567,7 @@ GameObject:
   - component: {fileID: 748858594}
   - component: {fileID: 748858596}
   - component: {fileID: 748858595}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13561,7 +13597,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748858593}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14254,7 +14290,7 @@ GameObject:
   - component: {fileID: 786378211}
   - component: {fileID: 786378210}
   - component: {fileID: 786378209}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14366,7 +14402,7 @@ GameObject:
   - component: {fileID: 790434196}
   - component: {fileID: 790434198}
   - component: {fileID: 790434197}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14396,7 +14432,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 790434195}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -14823,13 +14859,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 802403914}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &802403914
 Transform:
   m_ObjectHideFlags: 0
@@ -15562,7 +15598,7 @@ GameObject:
   - component: {fileID: 876947728}
   - component: {fileID: 876947727}
   - component: {fileID: 876947726}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15665,7 +15701,7 @@ GameObject:
   - component: {fileID: 878730520}
   - component: {fileID: 878730522}
   - component: {fileID: 878730521}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15695,7 +15731,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878730519}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -15986,7 +16022,7 @@ GameObject:
   - component: {fileID: 899686067}
   - component: {fileID: 899686066}
   - component: {fileID: 899686065}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16571,7 +16607,7 @@ GameObject:
   - component: {fileID: 921844931}
   - component: {fileID: 921844933}
   - component: {fileID: 921844932}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16601,7 +16637,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921844930}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -16818,7 +16854,7 @@ GameObject:
   - component: {fileID: 932624924}
   - component: {fileID: 932624923}
   - component: {fileID: 932624922}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17136,7 +17172,7 @@ GameObject:
   - component: {fileID: 959188362}
   - component: {fileID: 959188364}
   - component: {fileID: 959188363}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17166,7 +17202,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959188361}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -17289,13 +17325,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 962825668}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &962825668
 Transform:
   m_ObjectHideFlags: 0
@@ -17327,7 +17363,7 @@ GameObject:
   - component: {fileID: 965224976}
   - component: {fileID: 965224975}
   - component: {fileID: 965224974}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17450,13 +17486,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 965546011}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &965546011
 Transform:
   m_ObjectHideFlags: 0
@@ -17491,7 +17527,7 @@ GameObject:
   - component: {fileID: 970594655}
   - component: {fileID: 970594657}
   - component: {fileID: 970594656}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17521,7 +17557,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 970594654}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -18082,7 +18118,7 @@ GameObject:
   - component: {fileID: 991421314}
   - component: {fileID: 991421313}
   - component: {fileID: 991421312}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18854,7 +18890,7 @@ GameObject:
   - component: {fileID: 1032065428}
   - component: {fileID: 1032065430}
   - component: {fileID: 1032065429}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18884,7 +18920,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032065427}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -18979,7 +19015,7 @@ GameObject:
   - component: {fileID: 1046028094}
   - component: {fileID: 1046028096}
   - component: {fileID: 1046028095}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19009,7 +19045,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046028093}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -19220,7 +19256,7 @@ GameObject:
   - component: {fileID: 1062205401}
   - component: {fileID: 1062205400}
   - component: {fileID: 1062205399}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19603,7 +19639,7 @@ GameObject:
   - component: {fileID: 1072744728}
   - component: {fileID: 1072744727}
   - component: {fileID: 1072744726}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19974,7 +20010,7 @@ GameObject:
   - component: {fileID: 1088217709}
   - component: {fileID: 1088217711}
   - component: {fileID: 1088217710}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20004,7 +20040,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1088217708}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -20180,7 +20216,7 @@ GameObject:
   - component: {fileID: 1098042672}
   - component: {fileID: 1098042671}
   - component: {fileID: 1098042670}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20281,13 +20317,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1100679409}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1100679409
 Transform:
   m_ObjectHideFlags: 0
@@ -20319,7 +20355,7 @@ GameObject:
   - component: {fileID: 1107906846}
   - component: {fileID: 1107906845}
   - component: {fileID: 1107906844}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20477,7 +20513,7 @@ GameObject:
   - component: {fileID: 1123825512}
   - component: {fileID: 1123825514}
   - component: {fileID: 1123825513}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20507,7 +20543,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123825511}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -21371,7 +21407,7 @@ GameObject:
   - component: {fileID: 1189663749}
   - component: {fileID: 1189663748}
   - component: {fileID: 1189663747}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21689,7 +21725,7 @@ GameObject:
   - component: {fileID: 1199829690}
   - component: {fileID: 1199829692}
   - component: {fileID: 1199829691}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21719,7 +21755,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1199829689}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -21845,7 +21881,7 @@ GameObject:
   - component: {fileID: 1200521799}
   - component: {fileID: 1200521798}
   - component: {fileID: 1200521797}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22751,7 +22787,7 @@ GameObject:
   - component: {fileID: 1255770455}
   - component: {fileID: 1255770454}
   - component: {fileID: 1255770453}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23115,7 +23151,7 @@ GameObject:
   - component: {fileID: 1270575444}
   - component: {fileID: 1270575446}
   - component: {fileID: 1270575445}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23145,7 +23181,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1270575443}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -23314,7 +23350,7 @@ GameObject:
   - component: {fileID: 1278349579}
   - component: {fileID: 1278349581}
   - component: {fileID: 1278349580}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23344,7 +23380,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1278349578}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -23974,7 +24010,7 @@ GameObject:
   - component: {fileID: 1327886635}
   - component: {fileID: 1327886637}
   - component: {fileID: 1327886636}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24004,7 +24040,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327886634}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -24097,13 +24133,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1327943687}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1327943687
 Transform:
   m_ObjectHideFlags: 0
@@ -24354,7 +24390,7 @@ GameObject:
   - component: {fileID: 1345847923}
   - component: {fileID: 1345847922}
   - component: {fileID: 1345847921}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24945,7 +24981,7 @@ GameObject:
   - component: {fileID: 1378279592}
   - component: {fileID: 1378279594}
   - component: {fileID: 1378279593}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24975,7 +25011,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378279591}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -25244,7 +25280,7 @@ GameObject:
   - component: {fileID: 1387695641}
   - component: {fileID: 1387695640}
   - component: {fileID: 1387695639}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26224,7 +26260,7 @@ GameObject:
   - component: {fileID: 1420635577}
   - component: {fileID: 1420635576}
   - component: {fileID: 1420635575}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26479,7 +26515,7 @@ GameObject:
   - component: {fileID: 1425565928}
   - component: {fileID: 1425565930}
   - component: {fileID: 1425565929}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26509,7 +26545,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1425565927}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -27628,7 +27664,7 @@ GameObject:
   - component: {fileID: 1500069045}
   - component: {fileID: 1500069047}
   - component: {fileID: 1500069046}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27658,7 +27694,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500069044}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -27994,7 +28030,7 @@ GameObject:
   - component: {fileID: 1514608995}
   - component: {fileID: 1514608994}
   - component: {fileID: 1514608993}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28245,7 +28281,7 @@ GameObject:
   - component: {fileID: 1517062637}
   - component: {fileID: 1517062639}
   - component: {fileID: 1517062638}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28275,7 +28311,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517062636}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -28839,7 +28875,7 @@ GameObject:
   - component: {fileID: 1526583392}
   - component: {fileID: 1526583394}
   - component: {fileID: 1526583393}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28869,7 +28905,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526583391}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -29126,7 +29162,7 @@ GameObject:
   - component: {fileID: 1534803054}
   - component: {fileID: 1534803053}
   - component: {fileID: 1534803052}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29553,7 +29589,7 @@ GameObject:
   - component: {fileID: 1556521482}
   - component: {fileID: 1556521481}
   - component: {fileID: 1556521480}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29923,6 +29959,54 @@ PrefabInstance:
       propertyPath: m_Name
       value: EndZone (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1396579140358717455, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.78131604
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396579140358717455, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.12393935
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396579140358717455, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5942074
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396579140358717455, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.14526492
+      objectReference: {fileID: 0}
+    - target: {fileID: 4821851442399422106, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.8769744
+      objectReference: {fileID: 0}
+    - target: {fileID: 4821851442399422106, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.17310691
+      objectReference: {fileID: 0}
+    - target: {fileID: 4821851442399422106, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.44096798
+      objectReference: {fileID: 0}
+    - target: {fileID: 4821851442399422106, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.08060587
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770827569851800046, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.79158235
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770827569851800046, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0844883
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770827569851800046, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5946557
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770827569851800046, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.112444684
+      objectReference: {fileID: 0}
     - target: {fileID: 6446868598500561527, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.73109
@@ -29933,7 +30017,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6446868598500561527, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 250.1
+      value: 240.6
       objectReference: {fileID: 0}
     - target: {fileID: 6446868598500561527, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29941,15 +30025,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6446868598500561527, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6446868598500561527, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6446868598500561527, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6446868598500561527, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -29962,6 +30046,46 @@ PrefabInstance:
     - target: {fileID: 6446868598500561527, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6740806054366578052, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9472427
+      objectReference: {fileID: 0}
+    - target: {fileID: 6740806054366578052, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.022520998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6740806054366578052, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.31959116
+      objectReference: {fileID: 0}
+    - target: {fileID: 6740806054366578052, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.009253279
+      objectReference: {fileID: 0}
+    - target: {fileID: 8398389638383490123, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.1573296
+      objectReference: {fileID: 0}
+    - target: {fileID: 8398389638383490123, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9875462
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112148914077095580, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7305184
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112148914077095580, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.2473571
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112148914077095580, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6073373
+      objectReference: {fileID: 0}
+    - target: {fileID: 9112148914077095580, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.19052264
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29980,12 +30104,102 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1582261254 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 8672356040289019451, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8973725627317543805, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
   m_PrefabInstance: {fileID: 1582261251}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1582261255 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 424800380300148971, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261256 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3504386593789627696, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261257 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2108110837385139629, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261258 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4657129548303650585, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261259 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6752984323696319395, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261260 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8094373567677170494, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3293271361620203914, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261262 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 881692277298314550, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261263 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2440934357093115307, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261264 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8952876611938008863, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261265 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1394683525242592808, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261266 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4519784369663657653, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261267 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7158910220801481729, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261268 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2216007665127129666, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261269 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3684861015783430879, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261270 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7981417129139732587, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261271 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4205197410031718375, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261272 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1709197880873686906, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
+  m_PrefabInstance: {fileID: 1582261251}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582261273 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5357237845841989070, guid: 8d94d66e0d5c51845a85b48b3113d96c, type: 3}
   m_PrefabInstance: {fileID: 1582261251}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1590747164
@@ -30077,13 +30291,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1591605135}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1591605135
 Transform:
   m_ObjectHideFlags: 0
@@ -30332,7 +30546,7 @@ GameObject:
   - component: {fileID: 1605111609}
   - component: {fileID: 1605111608}
   - component: {fileID: 1605111607}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30764,7 +30978,7 @@ GameObject:
   - component: {fileID: 1617965581}
   - component: {fileID: 1617965580}
   - component: {fileID: 1617965579}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31029,7 +31243,7 @@ GameObject:
   - component: {fileID: 1626880614}
   - component: {fileID: 1626880613}
   - component: {fileID: 1626880612}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31152,13 +31366,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1628674299}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1628674299
 Transform:
   m_ObjectHideFlags: 0
@@ -31364,7 +31578,7 @@ GameObject:
   - component: {fileID: 1658767374}
   - component: {fileID: 1658767373}
   - component: {fileID: 1658767372}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31465,13 +31679,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1659423801}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1659423801
 Transform:
   m_ObjectHideFlags: 0
@@ -31499,13 +31713,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1661967088}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1661967088
 Transform:
   m_ObjectHideFlags: 0
@@ -31628,7 +31842,7 @@ GameObject:
   - component: {fileID: 1669185504}
   - component: {fileID: 1669185503}
   - component: {fileID: 1669185502}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32707,7 +32921,7 @@ GameObject:
   - component: {fileID: 1690638696}
   - component: {fileID: 1690638698}
   - component: {fileID: 1690638697}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32737,7 +32951,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1690638695}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -33006,7 +33220,7 @@ GameObject:
   - component: {fileID: 1726496039}
   - component: {fileID: 1726496038}
   - component: {fileID: 1726496037}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33324,7 +33538,7 @@ GameObject:
   - component: {fileID: 1739173996}
   - component: {fileID: 1739173995}
   - component: {fileID: 1739173994}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33631,7 +33845,7 @@ GameObject:
   - component: {fileID: 1763096556}
   - component: {fileID: 1763096555}
   - component: {fileID: 1763096554}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34271,7 +34485,7 @@ GameObject:
   - component: {fileID: 1799215555}
   - component: {fileID: 1799215554}
   - component: {fileID: 1799215553}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34474,7 +34688,7 @@ GameObject:
   - component: {fileID: 1811459779}
   - component: {fileID: 1811459778}
   - component: {fileID: 1811459777}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34704,7 +34918,7 @@ GameObject:
   - component: {fileID: 1821993154}
   - component: {fileID: 1821993153}
   - component: {fileID: 1821993152}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35386,7 +35600,7 @@ GameObject:
   - component: {fileID: 1860755869}
   - component: {fileID: 1860755871}
   - component: {fileID: 1860755870}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35416,7 +35630,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860755868}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -35869,7 +36083,7 @@ GameObject:
   - component: {fileID: 1886129132}
   - component: {fileID: 1886129131}
   - component: {fileID: 1886129130}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35972,7 +36186,7 @@ GameObject:
   - component: {fileID: 1886148666}
   - component: {fileID: 1886148668}
   - component: {fileID: 1886148667}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36002,7 +36216,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1886148665}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -36095,13 +36309,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1893334212}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1893334212
 Transform:
   m_ObjectHideFlags: 0
@@ -36308,7 +36522,7 @@ GameObject:
   - component: {fileID: 1918337586}
   - component: {fileID: 1918337585}
   - component: {fileID: 1918337584}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36690,7 +36904,7 @@ GameObject:
   - component: {fileID: 1950539786}
   - component: {fileID: 1950539785}
   - component: {fileID: 1950539784}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37074,7 +37288,7 @@ GameObject:
   - component: {fileID: 1960729736}
   - component: {fileID: 1960729735}
   - component: {fileID: 1960729734}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37525,7 +37739,7 @@ GameObject:
   - component: {fileID: 1976422564}
   - component: {fileID: 1976422563}
   - component: {fileID: 1976422562}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37682,7 +37896,7 @@ GameObject:
   - component: {fileID: 1978823473}
   - component: {fileID: 1978823475}
   - component: {fileID: 1978823474}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37712,7 +37926,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978823472}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -37888,7 +38102,7 @@ GameObject:
   - component: {fileID: 1986184298}
   - component: {fileID: 1986184297}
   - component: {fileID: 1986184296}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38000,7 +38214,7 @@ GameObject:
   - component: {fileID: 1994652203}
   - component: {fileID: 1994652205}
   - component: {fileID: 1994652204}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38030,7 +38244,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994652202}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -38269,7 +38483,7 @@ GameObject:
   - component: {fileID: 2010214019}
   - component: {fileID: 2010214018}
   - component: {fileID: 2010214017}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38525,7 +38739,7 @@ GameObject:
   - component: {fileID: 2033126388}
   - component: {fileID: 2033126390}
   - component: {fileID: 2033126389}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38555,7 +38769,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033126387}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -38681,7 +38895,7 @@ GameObject:
   - component: {fileID: 2046545083}
   - component: {fileID: 2046545082}
   - component: {fileID: 2046545081}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39142,13 +39356,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2071277362}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2071277362
 Transform:
   m_ObjectHideFlags: 0
@@ -39176,13 +39390,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2077723174}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2077723174
 Transform:
   m_ObjectHideFlags: 0
@@ -39303,7 +39517,7 @@ GameObject:
   - component: {fileID: 2091507164}
   - component: {fileID: 2091507163}
   - component: {fileID: 2091507162}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDistortion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39535,7 +39749,7 @@ GameObject:
   - component: {fileID: 2111111897}
   - component: {fileID: 2111111896}
   - component: {fileID: 2111111895}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: SpinLiftPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39661,7 +39875,7 @@ GameObject:
   - component: {fileID: 2126578436}
   - component: {fileID: 2126578435}
   - component: {fileID: 2126578434}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Leaf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39764,7 +39978,7 @@ GameObject:
   - component: {fileID: 2127806292}
   - component: {fileID: 2127806294}
   - component: {fileID: 2127806293}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindSwirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39794,7 +40008,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2127806291}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -39919,7 +40133,7 @@ GameObject:
   - component: {fileID: 2140357167}
   - component: {fileID: 2140357169}
   - component: {fileID: 2140357168}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: WindDust
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39949,7 +40163,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140357166}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
