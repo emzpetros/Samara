@@ -1421,21 +1421,26 @@ MonoBehaviour:
     <rainb>Eileen Petros</rainb>
 
 
+    Special thanks to Isabel
+    Van Huffel, Ben Alexander, and Srikanth Chavali for playtesting!
+
+
     Music
 
-    Forest Whispers
-    - Music Background from Delon_Boomkin on Pixabay
+    Forest
+    Whispers - Music Background from Delon_Boomkin on Pixabay
 
 
     Sounds
 
-    GDC 2026 Sounds
-    Bundle https://gdc.sonniss.com/fw
+    GDC
+    2026 Sounds Bundle https://gdc.sonniss.com/fw
 
 
     Assets
 
-    Maple Tree Seed Model: https://sketchfab.com/3d-models/maple-tree-seed-9c166c4a77fd46649cef7b53aa80dbdd
+    Maple Tree Seed
+    Model: https://sketchfab.com/3d-models/maple-tree-seed-9c166c4a77fd46649cef7b53aa80dbdd
 
     "Maple
     Tree Seed" (https://skfb.ly/oTICY) by RISD Nature Lab is licensed under Creative
@@ -1489,8 +1494,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 65
+  m_fontSizeBase: 65
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

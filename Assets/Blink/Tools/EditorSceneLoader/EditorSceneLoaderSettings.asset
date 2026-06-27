@@ -23,3 +23,5 @@ MonoBehaviour:
     scene: {fileID: 102900000, guid: fe6370477f3414f489f4545accffa8f9, type: 3}
   - displayName: Level3
     scene: {fileID: 102900000, guid: cd2a8440710cf994da434c8ba4f1c60e, type: 3}
+  - displayName: Instructions
+    scene: {fileID: 102900000, guid: 93400ace446c41e45b24594f156db55c, type: 3}

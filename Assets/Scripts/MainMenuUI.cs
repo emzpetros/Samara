@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System;
 
-public enum Scenes { Level1, Level2, Level3, MainMenu , Credits}
+public enum Scenes { Level1, Level2, Level3, MainMenu , Credits, InstructionsSamara}
 public class MainMenuUI : MonoBehaviour
 {
     
@@ -14,13 +14,21 @@ public class MainMenuUI : MonoBehaviour
 
     [SerializeField] private Button CreditsButton;
 
+    [SerializeField] private Button InstructionsButton;
+
     private void Awake() {
         level1Button.onClick.AddListener(Level1_OnClick);
         level2Button.onClick.AddListener(Level2_OnClick);
         level3Button.onClick.AddListener(Level3_OnClick);
         QuitButton.onClick.AddListener(Quit_OnClick);
 
+        InstructionsButton.onClick.AddListener(Instructions_OnClick);
+
         CreditsButton.onClick.AddListener(Credits_OnClick);
+    }
+
+    private void Instructions_OnClick() {
+        SceneManager.LoadScene(Scenes.InstructionsSamara.ToString());
     }
 
     private void Credits_OnClick() {

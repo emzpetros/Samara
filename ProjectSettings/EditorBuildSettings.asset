@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: cdde651d33aeef2479bb18eb0aee97dc
+  - enabled: 1
+    path: Assets/Scenes/InstructionsSamara.unity
+    guid: 93400ace446c41e45b24594f156db55c
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

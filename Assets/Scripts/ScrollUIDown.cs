@@ -20,7 +20,7 @@ public class UIScrollDown : MonoBehaviour {
             rectTransform.anchoredPosition -= Vector2.down * scrollSpeed * Time.deltaTime;
         }
 
-        if (this.rectTransform.position.y > 1800) {
+        if (this.rectTransform.position.y > 2000) {
             SceneManager.LoadScene("Start");
         }
     }

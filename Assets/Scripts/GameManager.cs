@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -42,5 +43,9 @@ public class GameManager : MonoBehaviour
         OnLevelComplete?.Invoke(this, EventArgs.Empty);
         Time.timeScale = 0;
         winUI.SetActive(true);
+    }
+
+    public void LoadMainMenu() {
+        SceneManager.LoadScene(Scenes.MainMenu.ToString());
     }
 }

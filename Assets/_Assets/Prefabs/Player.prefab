@@ -5102,6 +5102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SamaraRight
       objectReference: {fileID: 0}
+    - target: {fileID: 9137360874358614534, guid: 4a0e095168c380f4e94e1f4c55db9f16, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
